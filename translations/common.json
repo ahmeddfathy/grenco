@@ -1,0 +1,157 @@
+{
+  "text": [
+    {
+      "selector": ".logo-text",
+      "en": "Grenco",
+      "ar": "جرينكو"
+    },
+    {
+      "selector": ".nav-links a[href=\"index.html\"]",
+      "en": "Home",
+      "ar": "الرئيسية"
+    },
+    {
+      "selector": ".nav-links a[href=\"about.html\"]",
+      "en": "About",
+      "ar": "من نحن"
+    },
+    {
+      "selector": ".nav-links a[href=\"products.html\"]",
+      "en": "Products",
+      "ar": "المنتجات"
+    },
+    {
+      "selector": ".nav-links a[href=\"services.html\"]",
+      "en": "Services",
+      "ar": "الحلول"
+    },
+    {
+      "selector": ".nav-links a[href=\"news.html\"]",
+      "en": "News",
+      "ar": "الأخبار"
+    },
+    {
+      "selector": ".nav-links a[href=\"contact.html\"]",
+      "en": "Contact",
+      "ar": "تواصل"
+    },
+    {
+      "selector": ".footer-description",
+      "en": "Grenco provides smart plastic recycling solutions for businesses seeking to reduce costs and environmental impact.",
+      "ar": "توفر جرينكو حلولاً ذكية لإعادة تدوير البلاستيك للشركات التي تسعى إلى خفض التكاليف وتقليل الأثر البيئي."
+    },
+    {
+      "selector": ".footer-column:nth-child(2) .footer-title",
+      "en": "Quick Links",
+      "ar": "روابط سريعة"
+    },
+    {
+      "selector": ".footer-column:nth-child(3) .footer-title",
+      "en": "Information",
+      "ar": "معلومات"
+    },
+    {
+      "selector": ".footer-column:nth-child(4) .footer-title",
+      "en": "Contact Info",
+      "ar": "بيانات التواصل"
+    },
+    {
+      "selector": ".footer-column:nth-child(2) .footer-links li:nth-child(1) a",
+      "en": "Home",
+      "ar": "الرئيسية"
+    },
+    {
+      "selector": ".footer-column:nth-child(2) .footer-links li:nth-child(2) a",
+      "en": "About",
+      "ar": "من نحن"
+    },
+    {
+      "selector": ".footer-column:nth-child(2) .footer-links li:nth-child(3) a",
+      "en": "Products",
+      "ar": "المنتجات"
+    },
+    {
+      "selector": ".footer-column:nth-child(2) .footer-links li:nth-child(4) a",
+      "en": "Solutions",
+      "ar": "الحلول"
+    },
+    {
+      "selector": ".footer-column:nth-child(2) .footer-links li:nth-child(5) a",
+      "en": "Support",
+      "ar": "الدعم"
+    },
+    {
+      "selector": ".footer-column:nth-child(2) .footer-links li:nth-child(6) a",
+      "en": "Contact",
+      "ar": "تواصل"
+    },
+    {
+      "selector": ".footer-column:nth-child(3) .footer-links li:nth-child(1) a",
+      "en": "FAQ",
+      "ar": "الأسئلة الشائعة"
+    },
+    {
+      "selector": ".footer-column:nth-child(3) .footer-links li:nth-child(2) a",
+      "en": "Privacy Policy",
+      "ar": "سياسة الخصوصية"
+    },
+    {
+      "selector": ".footer-column:nth-child(3) .footer-links li:nth-child(3) a",
+      "en": "Terms of Service",
+      "ar": "شروط الخدمة"
+    },
+    {
+      "selector": ".footer-column:nth-child(4) .footer-contact li:nth-child(1)",
+      "en": "Beni-Suef, Egypt",
+      "ar": "بني سويف، مصر"
+    },
+    {
+      "selector": ".footer-column:nth-child(4) .footer-contact li:nth-child(2)",
+      "en": "+20 11 52338718",
+      "ar": "+20 11 52338718"
+    },
+    {
+      "selector": ".footer-column:nth-child(4) .footer-contact li:nth-child(3)",
+      "en": "info@grenco.org",
+      "ar": "info@grenco.org"
+    },
+    {
+      "selector": ".footer-bottom p",
+      "en": "© 2025 Grenco. All Rights Reserved.",
+      "ar": "© 2025 جرينكو. جميع الحقوق محفوظة."
+    }
+  ],
+  "attributes": [
+    {
+      "selector": "input[placeholder=\"Your Name\"]",
+      "attribute": "placeholder",
+      "en": "Your Name",
+      "ar": "اسمك"
+    },
+    {
+      "selector": "input[placeholder=\"Your Email\"]",
+      "attribute": "placeholder",
+      "en": "Your Email",
+      "ar": "بريدك الإلكتروني"
+    },
+    {
+      "selector": "input[placeholder=\"Subject\"]",
+      "attribute": "placeholder",
+      "en": "Subject",
+      "ar": "الموضوع"
+    },
+    {
+      "selector": "textarea[placeholder=\"Your Message\"]",
+      "attribute": "placeholder",
+      "en": "Your Message",
+      "ar": "رسالتك"
+    },
+    {
+      "selector": "input[placeholder=\"Enter your email address\"]",
+      "attribute": "placeholder",
+      "en": "Enter your email address",
+      "ar": "أدخل بريدك الإلكتروني"
+    }
+  ],
+  "html": []
+}

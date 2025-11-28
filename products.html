@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products - Grenco Smart Recycling Machines</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body data-page="products">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-content">
+          <div class="logo">
+            <span class="logo-icon">♻</span>
+            <span class="logo-text">Grenco</span>
+          </div>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="products.html" class="nav-link active">Products</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="news.html" class="nav-link">News</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+          </div>
+          <div class="nav-actions">
+            <button class="lang-btn">العربية</button>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-background">
+        <img
+          src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80"
+          alt="Products"
+          class="hero-bg-image"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Our Products</h1>
+          <p class="hero-subtitle">
+            Advanced recycling machines designed for every business size
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Filter Section -->
+    <section class="products-filter-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Recycling Machines</h2>
+          <p class="section-subtitle">
+            Choose the perfect machine for your recycling needs
+          </p>
+        </div>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">
+            All Products
+          </button>
+          <button class="filter-btn" data-filter="compact">Compact</button>
+          <button class="filter-btn" data-filter="medium">Medium</button>
+          <button class="filter-btn" data-filter="industrial">
+            Industrial
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Grid Section -->
+    <section class="products-detailed">
+      <div class="container">
+        <div class="products-grid-detailed">
+          <!-- Product 1 -->
+          <div class="product-card-detailed" data-category="compact">
+            <div class="product-image-detailed">
+              <img
+                src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&q=80"
+                alt="EcoGrind S100"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="product-badge">Compact</span>
+            </div>
+            <div class="product-content-detailed">
+              <h3 class="product-name-detailed">EcoGrind S100</h3>
+              <p class="product-tagline">
+                Compact plastic grinding machine optimized for small workshops
+              </p>
+              <div class="product-specs">
+                <div class="spec-item">
+                  <span class="spec-label">أنواع البلاستيك المدعومة:</span>
+                  <span class="spec-value">PET, HDPE, LDPE</span>
+                </div>
+              </div>
+              <div class="product-description-detailed">
+                <h4>ميزات ذكية</h4>
+                <ul class="features-list-detailed">
+                  <li>Smart energy management</li>
+                  <li>Remote monitoring via mobile app</li>
+                  <li>Customizable grinding settings</li>
+                  <li>+2 more features</li>
+                </ul>
+              </div>
+              <div class="product-actions-detailed">
+                <a
+                  href="product-detail.html?product=ecograind-s100"
+                  class="btn btn-outline"
+                  >معرفة المزيد</a
+                >
+                <a
+                  href="product-detail.html?product=ecograind-s100"
+                  class="btn btn-primary"
+                  >طلب عرض سعر</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="product-card-detailed" data-category="medium">
+            <div class="product-image-detailed">
+              <img
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+                alt="RecycleMaster R200"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="product-badge">Medium</span>
+            </div>
+            <div class="product-content-detailed">
+              <h3 class="product-name-detailed">RecycleMaster R200</h3>
+              <p class="product-tagline">
+                Medium capacity recycling solution for diverse plastic types
+              </p>
+              <div class="product-specs">
+                <div class="spec-item">
+                  <span class="spec-label">أنواع البلاستيك المدعومة:</span>
+                  <span class="spec-value">PET, HDPE, LDPE, PP, PS</span>
+                </div>
+              </div>
+              <div class="product-description-detailed">
+                <h4>ميزات ذكية</h4>
+                <ul class="features-list-detailed">
+                  <li>Advanced sorting system</li>
+                  <li>Real-time analytics dashboard</li>
+                  <li>Energy-efficient operation</li>
+                  <li>+3 more features</li>
+                </ul>
+              </div>
+              <div class="product-actions-detailed">
+                <a
+                  href="product-detail.html?product=recyclemaster-r200"
+                  class="btn btn-outline"
+                  >معرفة المزيد</a
+                >
+                <a
+                  href="product-detail.html?product=recyclemaster-r200"
+                  class="btn btn-primary"
+                  >طلب عرض سعر</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="product-card-detailed" data-category="industrial">
+            <div class="product-image-detailed">
+              <img
+                src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=800&q=80"
+                alt="InduStrong I500"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="product-badge">Industrial</span>
+            </div>
+            <div class="product-content-detailed">
+              <h3 class="product-name-detailed">InduStrong I500</h3>
+              <p class="product-tagline">
+                Heavy-duty industrial recycling system for high-volume
+                operations
+              </p>
+              <div class="product-specs">
+                <div class="spec-item">
+                  <span class="spec-label">أنواع البلاستيك المدعومة:</span>
+                  <span class="spec-value">All major plastic types</span>
+                </div>
+              </div>
+              <div class="product-description-detailed">
+                <h4>ميزات ذكية</h4>
+                <ul class="features-list-detailed">
+                  <li>Maximum throughput design</li>
+                  <li>AI-powered sorting technology</li>
+                  <li>Full automation options</li>
+                  <li>+4 more features</li>
+                </ul>
+              </div>
+              <div class="product-actions-detailed">
+                <a
+                  href="product-detail.html?product=industrong-i500"
+                  class="btn btn-outline"
+                  >معرفة المزيد</a
+                >
+                <a
+                  href="product-detail.html?product=industrong-i500"
+                  class="btn btn-primary"
+                  >طلب عرض سعر</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner Section -->
+    <section class="banner">
+      <div class="banner-background">
+        <img
+          src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1920&q=80"
+          alt="Choose Product"
+          class="banner-bg-image"
+          loading="lazy"
+          decoding="async"
+        />
+        <div class="banner-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="banner-content">
+          <h2 class="banner-title">Find Your Perfect Recycling Solution</h2>
+          <p class="banner-text">
+            Our experts are ready to help you choose the right machine for your
+            business needs.
+          </p>
+          <a href="index.html#contact" class="btn btn-primary"
+            >Get Expert Advice</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Contact Us</h2>
+          <p class="section-subtitle">
+            Ready to get started? Contact our sales team
+          </p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-icon">📍</div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>Beni-Suef, Egypt</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">📞</div>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <p>+20 11 52338718</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">✉️</div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p>info@grenco.org</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  class="form-input"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  class="form-input"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Subject"
+                class="form-input"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                placeholder="Your Message"
+                class="form-textarea"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <div class="footer-logo">
+              <span class="logo-icon">♻</span>
+              <span class="logo-text">Grenco</span>
+            </div>
+            <p class="footer-description">
+              Grenco provides smart plastic recycling solutions for businesses
+              seeking to reduce costs and environmental impact.
+            </p>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-title">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="index.html#contact">Support</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-title">Information</h4>
+            <ul class="footer-links">
+              <li><a href="#about">FAQ</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-title">Contact Info</h4>
+            <ul class="footer-contact">
+              <li>Beni-Suef, Egypt</li>
+              <li>+20 11 52338718</li>
+              <li>info@grenco.org</li>
+            </ul>
+            <div class="social-links">
+              <a href="#" class="social-icon" aria-label="Twitter">𝕏</a>
+              <a href="#" class="social-icon" aria-label="Facebook">f</a>
+              <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+              <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Grenco. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="products.js"></script>
+  </body>
+</html>

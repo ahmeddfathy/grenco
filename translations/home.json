@@ -1,0 +1,497 @@
+{
+  "text": [
+    {
+      "selector": ".hero-title",
+      "en": "Smart Recycling for a Smarter Future",
+      "ar": "إعادة تدوير ذكية لمستقبل أذكى"
+    },
+    {
+      "selector": ".hero-subtitle",
+      "en": "Innovative plastic recycling machines for sustainable manufacturing",
+      "ar": "آلات إعادة تدوير بلاستيكية مبتكرة لدعم التصنيع المستدام"
+    },
+    {
+      "selector": ".hero-buttons .btn-primary",
+      "en": "Explore Products",
+      "ar": "استكشف المنتجات"
+    },
+    {
+      "selector": ".hero-buttons .btn-secondary",
+      "en": "Contact Us",
+      "ar": "تواصل معنا"
+    },
+    {
+      "selector": ".about .section-title",
+      "en": "About Grenco",
+      "ar": "عن جرينكو"
+    },
+    {
+      "selector": ".about-text",
+      "en": "Grenco manufactures innovative smart plastic recycling machines designed for small and medium-sized enterprises.",
+      "ar": "تصنع جرينكو آلات ذكية مبتكرة لإعادة تدوير البلاستيك مصممة للمؤسسات الصغيرة والمتوسطة."
+    },
+    {
+      "selector": ".about-card:nth-child(1) .card-title",
+      "en": "Our Mission",
+      "ar": "رسالتنا"
+    },
+    {
+      "selector": ".about-card:nth-child(1) .card-text",
+      "en": "To empower businesses with sustainable recycling solutions that reduce costs and environmental impact.",
+      "ar": "تمكين الشركات بحلول إعادة تدوير مستدامة تقلل التكاليف والأثر البيئي."
+    },
+    {
+      "selector": ".about-card:nth-child(2) .card-title",
+      "en": "Our Vision",
+      "ar": "رؤيتنا"
+    },
+    {
+      "selector": ".about-card:nth-child(2) .card-text",
+      "en": "To lead the transition to a circular economy through smart recycling technology.",
+      "ar": "قيادة الانتقال إلى اقتصاد دائري من خلال تقنيات إعادة التدوير الذكية."
+    },
+    {
+      "selector": ".about-card:nth-child(3) .card-title",
+      "en": "Our Values",
+      "ar": "قيمنا"
+    },
+    {
+      "selector": ".about-card:nth-child(3) .card-text",
+      "en": "Commitment to innovation, sustainability, and customer success drives everything we do at Grenco.",
+      "ar": "يلهمنا الالتزام بالابتكار والاستدامة ونجاح العملاء في كل ما نقوم به في جرينكو."
+    },
+    {
+      "selector": ".about .btn.btn-outline",
+      "en": "Learn More",
+      "ar": "اعرف المزيد"
+    },
+    {
+      "selector": ".stats .stat-item:nth-child(1) .stat-label",
+      "en": "Machines Deployed",
+      "ar": "آلات تم نشرها"
+    },
+    {
+      "selector": ".stats .stat-item:nth-child(2) .stat-label",
+      "en": "Plastic Types",
+      "ar": "أنواع البلاستيك"
+    },
+    {
+      "selector": ".stats .stat-item:nth-child(3) .stat-label",
+      "en": "Happy Customers",
+      "ar": "عملاء سعداء"
+    },
+    {
+      "selector": ".stats .stat-item:nth-child(4) .stat-label",
+      "en": "Countries",
+      "ar": "دول"
+    },
+    {
+      "selector": ".products .section-title",
+      "en": "Our Recycling Machines",
+      "ar": "آلات إعادة التدوير لدينا"
+    },
+    {
+      "selector": ".products .section-subtitle",
+      "en": "Efficient, customizable solutions for various plastic types",
+      "ar": "حلول فعالة وقابلة للتخصيص لأنواع البلاستيك المختلفة"
+    },
+    {
+      "selector": ".products .product-card:nth-child(1) .product-name",
+      "en": "EcoGrind S100",
+      "ar": "إيكو جرايند S100"
+    },
+    {
+      "selector": ".products .product-card:nth-child(1) .product-description",
+      "en": "Compact plastic grinding machine optimized for small workshops",
+      "ar": "آلة طحن بلاستيك مدمجة مُحسّنة للورش الصغيرة"
+    },
+    {
+      "selector": ".products .product-card:nth-child(2) .product-name",
+      "en": "RecycleMaster R200",
+      "ar": "ريسايكل ماستر R200"
+    },
+    {
+      "selector": ".products .product-card:nth-child(2) .product-description",
+      "en": "Medium capacity recycling solution for diverse plastic types",
+      "ar": "حل إعادة تدوير بسعة متوسطة لمختلف أنواع البلاستيك"
+    },
+    {
+      "selector": ".products .product-card:nth-child(3) .product-name",
+      "en": "InduStrong I500",
+      "ar": "إندو سترونج I500"
+    },
+    {
+      "selector": ".products .product-card:nth-child(3) .product-description",
+      "en": "Heavy-duty industrial recycling system for high-volume operations",
+      "ar": "نظام صناعي قوي لإعادة التدوير للعمليات عالية السعة"
+    },
+    {
+      "selector": ".products .product-features .features-title",
+      "en": "Smart Features",
+      "ar": "ميزات ذكية"
+    },
+    {
+      "selector": ".products .product-card:nth-child(1) .features-list li:nth-child(1)",
+      "en": "Smart energy management",
+      "ar": "إدارة طاقة ذكية"
+    },
+    {
+      "selector": ".products .product-card:nth-child(1) .features-list li:nth-child(2)",
+      "en": "Remote monitoring",
+      "ar": "مراقبة عن بُعد"
+    },
+    {
+      "selector": ".products .product-card:nth-child(1) .features-list li:nth-child(3)",
+      "en": "Customizable grinding settings",
+      "ar": "إعدادات طحن قابلة للتخصيص"
+    },
+    {
+      "selector": ".products .product-card:nth-child(2) .features-list li:nth-child(1)",
+      "en": "Advanced sorting system",
+      "ar": "نظام فرز متقدم"
+    },
+    {
+      "selector": ".products .product-card:nth-child(2) .features-list li:nth-child(2)",
+      "en": "Real-time analytics",
+      "ar": "تحليلات لحظية"
+    },
+    {
+      "selector": ".products .product-card:nth-child(2) .features-list li:nth-child(3)",
+      "en": "Energy-efficient operation",
+      "ar": "تشغيل موفر للطاقة"
+    },
+    {
+      "selector": ".products .product-card:nth-child(3) .features-list li:nth-child(1)",
+      "en": "Maximum throughput",
+      "ar": "أقصى معدل إنتاج"
+    },
+    {
+      "selector": ".products .product-card:nth-child(3) .features-list li:nth-child(2)",
+      "en": "AI-powered sorting",
+      "ar": "فرز مدعوم بالذكاء الاصطناعي"
+    },
+    {
+      "selector": ".products .product-card:nth-child(3) .features-list li:nth-child(3)",
+      "en": "Full automation options",
+      "ar": "خيارات أتمتة كاملة"
+    },
+    {
+      "selector": ".products .product-card:nth-child(1) .product-actions .btn:nth-child(1)",
+      "en": "Learn More",
+      "ar": "اعرف المزيد"
+    },
+    {
+      "selector": ".products .product-card:nth-child(1) .product-actions .btn:nth-child(2)",
+      "en": "Request a Quote",
+      "ar": "اطلب عرض سعر"
+    },
+    {
+      "selector": ".products .product-card:nth-child(2) .product-actions .btn:nth-child(1)",
+      "en": "Learn More",
+      "ar": "اعرف المزيد"
+    },
+    {
+      "selector": ".products .product-card:nth-child(2) .product-actions .btn:nth-child(2)",
+      "en": "Request a Quote",
+      "ar": "اطلب عرض سعر"
+    },
+    {
+      "selector": ".products .product-card:nth-child(3) .product-actions .btn:nth-child(1)",
+      "en": "Learn More",
+      "ar": "اعرف المزيد"
+    },
+    {
+      "selector": ".products .product-card:nth-child(3) .product-actions .btn:nth-child(2)",
+      "en": "Request a Quote",
+      "ar": "اطلب عرض سعر"
+    },
+    {
+      "selector": "#features .section-title",
+      "en": "Our Recycling Machines",
+      "ar": "آلات إعادة التدوير لدينا"
+    },
+    {
+      "selector": ".features .feature-item:nth-child(1) .feature-title",
+      "en": "Energy Efficient",
+      "ar": "كفاءة في استهلاك الطاقة"
+    },
+    {
+      "selector": ".features .feature-item:nth-child(1) .feature-text",
+      "en": "Reduce power consumption with smart energy management systems",
+      "ar": "خفض استهلاك الطاقة بفضل أنظمة إدارة الطاقة الذكية"
+    },
+    {
+      "selector": ".features .feature-item:nth-child(2) .feature-title",
+      "en": "Customizable",
+      "ar": "قابل للتخصيص"
+    },
+    {
+      "selector": ".features .feature-item:nth-child(2) .feature-text",
+      "en": "Configure machines to match your specific requirements",
+      "ar": "اضبط الآلات لتناسب متطلباتك الخاصة"
+    },
+    {
+      "selector": ".features .feature-item:nth-child(3) .feature-title",
+      "en": "Smart Controls",
+      "ar": "تحكم ذكي"
+    },
+    {
+      "selector": ".features .feature-item:nth-child(3) .feature-text",
+      "en": "Monitor and control operations remotely via mobile app",
+      "ar": "راقب العمليات وتحكم بها عن بُعد عبر تطبيق الهاتف المحمول"
+    },
+    {
+      "selector": ".features .feature-item:nth-child(4) .feature-title",
+      "en": "Data Analytics",
+      "ar": "تحليلات البيانات"
+    },
+    {
+      "selector": ".features .feature-item:nth-child(4) .feature-text",
+      "en": "Track performance, yield, and maintenance needs in real-time",
+      "ar": "تابع الأداء والإنتاج واحتياجات الصيانة لحظياً"
+    },
+    {
+      "selector": ".features .feature-item:nth-child(5) .feature-title",
+      "en": "Multi-material",
+      "ar": "متعدد المواد"
+    },
+    {
+      "selector": ".features .feature-item:nth-child(5) .feature-text",
+      "en": "Process various plastic types with adaptable settings",
+      "ar": "عالج أنواع البلاستيك المختلفة بإعدادات مرنة"
+    },
+    {
+      "selector": ".features .feature-item:nth-child(6) .feature-title",
+      "en": "Quality Assurance",
+      "ar": "ضمان الجودة"
+    },
+    {
+      "selector": ".features .feature-item:nth-child(6) .feature-text",
+      "en": "Ensure consistent output quality with integrated testing",
+      "ar": "ضمن جودة إنتاج ثابتة بفضل الاختبارات المدمجة"
+    },
+    {
+      "selector": ".banner .banner-title",
+      "en": "Journey Towards a Greener Earth",
+      "ar": "رحلة نحو أرض أكثر خضرة"
+    },
+    {
+      "selector": ".banner .banner-text",
+      "en": "Empowering businesses to make a sustainable impact through innovative recycling technology",
+      "ar": "نساعد الشركات على إحداث تأثير مستدام عبر تقنيات إعادة تدوير مبتكرة"
+    },
+    {
+      "selector": "#testimonials .section-title",
+      "en": "What Our Clients Say",
+      "ar": "ماذا يقول عملاؤنا"
+    },
+    {
+      "selector": "#testimonials .section-subtitle",
+      "en": "Success stories from businesses using Grenco machines",
+      "ar": "قصص نجاح من شركات تستخدم آلات جرينكو"
+    },
+    {
+      "selector": ".testimonials .testimonial-card:nth-child(1) .testimonial-text",
+      "en": "\"The Grenco recycling machines have transformed our production process. We're now recycling 95% of our plastic waste, which has reduced our raw material costs by 30%.\"",
+      "ar": "\"حوّلت آلات جرينكو عملية الإنتاج لدينا. نحن نعيد الآن تدوير 95% من نفايات البلاستيك، مما خفض تكاليف المواد الخام بنسبة 30%.\""
+    },
+    {
+      "selector": ".testimonials .testimonial-card:nth-child(1) .author-role",
+      "en": "Operations Manager, EcoPlast Manufacturing",
+      "ar": "مدير العمليات، شركة إيكوبلاست للتصنيع"
+    },
+    {
+      "selector": ".testimonials .testimonial-card:nth-child(2) .testimonial-text",
+      "en": "\"As a small business, we needed an affordable recycling solution that wouldn't take up too much space. Grenco's compact machines were perfect, and the smart features help us maximize efficiency.\"",
+      "ar": "\"باعتبارنا شركة صغيرة كنا بحاجة إلى حل اقتصادي لإعادة التدوير لا يشغل مساحة كبيرة. كانت آلات جرينكو المدمجة مثالية، وميزاتها الذكية تساعدنا على تعزيز الكفاءة.\""
+    },
+    {
+      "selector": ".testimonials .testimonial-card:nth-child(2) .author-role",
+      "en": "CEO, Green Future Industries",
+      "ar": "الرئيس التنفيذي، شركة جرين فيوتشر للصناعات"
+    },
+    {
+      "selector": ".testimonials .testimonial-card:nth-child(3) .testimonial-text",
+      "en": "\"The customization options Grenco offered allowed us to create a recycling system that perfectly integrates with our existing production line. The ROI was achieved in just 8 months.\"",
+      "ar": "\"أتاحت لنا خيارات التخصيص من جرينكو إنشاء نظام إعادة تدوير يندمج تماماً مع خط الإنتاج الحالي. استعدنا الاستثمار خلال 8 أشهر فقط.\""
+    },
+    {
+      "selector": ".testimonials .testimonial-card:nth-child(3) .author-role",
+      "en": "Production Director, Sustainable Solutions Co.",
+      "ar": "مدير الإنتاج، شركة سستينبل سلوشنز"
+    },
+    {
+      "selector": "#news .section-title",
+      "en": "News & Media",
+      "ar": "الأخبار والإعلام"
+    },
+    {
+      "selector": "#news .section-subtitle",
+      "en": "Latest updates, blog posts, and events",
+      "ar": "أحدث التحديثات والمقالات والفعاليات"
+    },
+    {
+      "selector": ".news .news-card:nth-child(1) .news-badge",
+      "en": "Product Launch",
+      "ar": "إطلاق منتج"
+    },
+    {
+      "selector": ".news .news-card:nth-child(1) .news-title",
+      "en": "Grenco Launches Next-Gen Recycling Machine",
+      "ar": "جرينكو تطلق الجيل الجديد من آلات إعادة التدوير"
+    },
+    {
+      "selector": ".news .news-card:nth-child(1) .news-excerpt",
+      "en": "Our new EcoGrind X200 offers 30% higher efficiency and supports more plastic types.",
+      "ar": "يقدم جهاز EcoGrind X200 الجديد كفاءة أعلى بنسبة 30% ويدعم المزيد من أنواع البلاستيك."
+    },
+    {
+      "selector": ".news .news-card:nth-child(2) .news-badge",
+      "en": "Industry News",
+      "ar": "أخبار الصناعة"
+    },
+    {
+      "selector": ".news .news-card:nth-child(2) .news-title",
+      "en": "Grenco Expands Operations to 10 Countries",
+      "ar": "جرينكو توسع عملياتها إلى 10 دول"
+    },
+    {
+      "selector": ".news .news-card:nth-child(2) .news-excerpt",
+      "en": "We're excited to announce our expansion into new markets, bringing sustainable recycling solutions to businesses worldwide.",
+      "ar": "نعلن بكل حماس توسعنا إلى أسواق جديدة لتقديم حلول إعادة تدوير مستدامة للشركات حول العالم."
+    },
+    {
+      "selector": ".news .news-card:nth-child(3) .news-badge",
+      "en": "Awards",
+      "ar": "جوائز"
+    },
+    {
+      "selector": ".news .news-card:nth-child(3) .news-title",
+      "en": "Grenco Wins Innovation Award for Sustainability",
+      "ar": "جرينكو تفوز بجائزة الابتكار في الاستدامة"
+    },
+    {
+      "selector": ".news .news-card:nth-child(3) .news-excerpt",
+      "en": "Our smart recycling technology has been recognized for its innovative approach to reducing plastic waste in manufacturing.",
+      "ar": "حصلت تقنياتنا الذكية لإعادة التدوير على تقدير لنهجها المبتكر في تقليل نفايات البلاستيك في التصنيع."
+    },
+    {
+      "selector": ".news .news-card:nth-child(4) .news-badge",
+      "en": "Partnership",
+      "ar": "شراكة"
+    },
+    {
+      "selector": ".news .news-card:nth-child(4) .news-title",
+      "en": "New Partnership with Global Manufacturing Leaders",
+      "ar": "شراكة جديدة مع رواد التصنيع العالميين"
+    },
+    {
+      "selector": ".news .news-card:nth-child(4) .news-excerpt",
+      "en": "We've partnered with leading manufacturers to integrate our recycling solutions into their production processes.",
+      "ar": "تعاونّا مع رواد المصنعين لدمج حلولنا لإعادة التدوير في عملياتهم الإنتاجية."
+    },
+    {
+      "selector": ".news .news-card:nth-child(5) .news-badge",
+      "en": "Technology",
+      "ar": "تكنولوجيا"
+    },
+    {
+      "selector": ".news .news-card:nth-child(5) .news-title",
+      "en": "AI-Powered Sorting Technology Update",
+      "ar": "تحديث لتقنية الفرز المدعومة بالذكاء الاصطناعي"
+    },
+    {
+      "selector": ".news .news-card:nth-child(5) .news-excerpt",
+      "en": "Our latest software update improves AI sorting accuracy by 40%, making recycling more efficient than ever.",
+      "ar": "يحسن آخر تحديث برمجي لدينا دقة الفرز بالذكاء الاصطناعي بنسبة 40%، مما يجعل إعادة التدوير أكثر كفاءة من أي وقت مضى."
+    },
+    {
+      "selector": ".news .news-card:nth-child(6) .news-badge",
+      "en": "Event",
+      "ar": "فعالية"
+    },
+    {
+      "selector": ".news .news-card:nth-child(6) .news-title",
+      "en": "Grenco to Exhibit at International Recycling Expo",
+      "ar": "جرينكو تشارك في معرض إعادة التدوير الدولي"
+    },
+    {
+      "selector": ".news .news-card:nth-child(6) .news-excerpt",
+      "en": "Join us at the upcoming expo where we'll showcase our latest recycling innovations and technologies.",
+      "ar": "انضموا إلينا في المعرض القادم حيث سنعرض أحدث ابتكاراتنا وتقنياتنا في إعادة التدوير."
+    },
+    {
+      "selector": ".news .news-link",
+      "en": "Read More →",
+      "ar": "اقرأ المزيد →"
+    },
+    {
+      "selector": ".news-actions .btn-outline",
+      "en": "View All News",
+      "ar": "عرض جميع الأخبار"
+    },
+    {
+      "selector": ".subscribe-subtitle",
+      "en": "Stay updated with our latest innovations, news, and sustainability tips",
+      "ar": "ابق على اطلاع بآخر ابتكاراتنا وأخبارنا ونصائح الاستدامة"
+    },
+    {
+      "selector": ".subscribe-form .btn",
+      "en": "Subscribe",
+      "ar": "اشترك"
+    },
+    {
+      "selector": ".contact .section-title",
+      "en": "Contact Us",
+      "ar": "تواصل معنا"
+    },
+    {
+      "selector": ".contact .section-subtitle",
+      "en": "Get in touch with our team for inquiries or quotes",
+      "ar": "تواصل مع فريقنا للاستفسارات أو عروض الأسعار"
+    },
+    {
+      "selector": ".contact .contact-card:nth-child(1) h4",
+      "en": "Location",
+      "ar": "الموقع"
+    },
+    {
+      "selector": ".contact .contact-card:nth-child(1) p",
+      "en": "Beni-Suef, Egypt",
+      "ar": "بني سويف، مصر"
+    },
+    {
+      "selector": ".contact .contact-card:nth-child(2) h4",
+      "en": "Phone",
+      "ar": "الهاتف"
+    },
+    {
+      "selector": ".contact .contact-card:nth-child(2) p",
+      "en": "+20 11 52338718",
+      "ar": "+20 11 52338718"
+    },
+    {
+      "selector": ".contact .contact-card:nth-child(3) h4",
+      "en": "Email",
+      "ar": "البريد الإلكتروني"
+    },
+    {
+      "selector": ".contact .contact-card:nth-child(3) p",
+      "en": "info@grenco.org",
+      "ar": "info@grenco.org"
+    },
+    {
+      "selector": ".contact form button",
+      "en": "Send Message",
+      "ar": "أرسل الرسالة"
+    }
+  ],
+  "attributes": [],
+  "html": [
+    {
+      "selector": ".subscribe-title",
+      "en": "Subscribe for <span class=\"highlight\">Exclusive</span> Grenco Updates!",
+      "ar": "اشترك للحصول على أحدث مستجدات جرينكو <span class=\"highlight\">الحصرية</span>!"
+    }
+  ]
+}

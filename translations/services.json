@@ -1,0 +1,301 @@
+{
+  "text": [
+    {
+      "selector": ".hero-title",
+      "en": "Recycling Solutions",
+      "ar": "حلول إعادة التدوير"
+    },
+    {
+      "selector": ".hero-subtitle",
+      "en": "How Grenco helps businesses save costs and reduce waste",
+      "ar": "كيف تساعد جرينكو الشركات على تقليل التكاليف والنفايات"
+    },
+    {
+      "selector": ".services-overview .section-title",
+      "en": "Recycling Solutions",
+      "ar": "حلول إعادة التدوير"
+    },
+    {
+      "selector": ".services-overview .section-subtitle",
+      "en": "How Grenco helps businesses save costs and reduce waste",
+      "ar": "كيف تساعد جرينكو الشركات على تقليل التكاليف والنفايات"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(1) .service-title",
+      "en": "Cost Savings",
+      "ar": "توفير التكاليف"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(1) .service-description",
+      "en": "Reduce production costs by recycling plastic waste directly into your manufacturing process.",
+      "ar": "قلّل تكاليف الإنتاج عن طريق إعادة تدوير المخلفات البلاستيكية مباشرة في عملية التصنيع."
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(1) .service-meta",
+      "en": "Key Benefits:",
+      "ar": "أهم المزايا:"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(1) .service-features li:nth-child(1)",
+      "en": "Reduce raw material costs by up to 40%",
+      "ar": "تقليل تكاليف المواد الخام بما يصل إلى 40%"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(1) .service-features li:nth-child(2)",
+      "en": "Lower waste disposal expenses",
+      "ar": "خفض تكاليف التخلص من النفايات"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(1) .service-features li:nth-child(3)",
+      "en": "Quick return on investment",
+      "ar": "استرداد سريع للاستثمار"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(1) .service-features li:nth-child(4)",
+      "en": "Minimize production downtime",
+      "ar": "تقليل فترات التوقف عن الإنتاج"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(2) .service-title",
+      "en": "Environmental Impact",
+      "ar": "الأثر البيئي"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(2) .service-description",
+      "en": "Minimize waste and CO2 emissions with efficient recycling technology.",
+      "ar": "قلل النفايات وانبعاثات ثاني أكسيد الكربون مع تقنيات إعادة تدوير فعّالة."
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(2) .service-meta",
+      "en": "Key Benefits:",
+      "ar": "أهم المزايا:"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(2) .service-features li:nth-child(1)",
+      "en": "Reduce carbon footprint",
+      "ar": "تقليل البصمة الكربونية"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(2) .service-features li:nth-child(2)",
+      "en": "Meet sustainability goals",
+      "ar": "تحقيق أهداف الاستدامة"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(2) .service-features li:nth-child(3)",
+      "en": "Minimize landfill waste",
+      "ar": "تقليل النفايات المرسلة للمدافن"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(2) .service-features li:nth-child(4)",
+      "en": "Support circular economy",
+      "ar": "دعم الاقتصاد الدائري"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(3) .service-title",
+      "en": "Smart vs Traditional",
+      "ar": "الذكي مقابل التقليدي"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(3) .service-description",
+      "en": "Compare the benefits of smart recycling against traditional methods.",
+      "ar": "قارن مزايا إعادة التدوير الذكية بالطرق التقليدية."
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(3) .service-meta",
+      "en": "Key Benefits:",
+      "ar": "أهم المزايا:"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(3) .service-features li:nth-child(1)",
+      "en": "Smart monitoring systems",
+      "ar": "أنظمة مراقبة ذكية"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(3) .service-features li:nth-child(2)",
+      "en": "Higher processing efficiency",
+      "ar": "كفاءة معالجة أعلى"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(3) .service-features li:nth-child(3)",
+      "en": "Reduced energy consumption",
+      "ar": "تقليل استهلاك الطاقة"
+    },
+    {
+      "selector": ".services-overview .service-card:nth-child(3) .service-features li:nth-child(4)",
+      "en": "Advanced sorting capabilities",
+      "ar": "قدرات فرز متقدمة"
+    },
+    {
+      "selector": ".why-choose .section-title",
+      "en": "Why Choose Our Solutions?",
+      "ar": "لماذا تختار حلولنا؟"
+    },
+    {
+      "selector": ".why-choose .section-subtitle",
+      "en": "Unlock smarter recycling with tailored technology and expert support",
+      "ar": "حقّق إعادة تدوير أذكى بتقنيات مخصصة ودعمٍ من الخبراء"
+    },
+    {
+      "selector": ".why-choose .service-card:nth-child(1) .service-title",
+      "en": "Customizable Solutions",
+      "ar": "حلول قابلة للتخصيص"
+    },
+    {
+      "selector": ".why-choose .service-card:nth-child(1) .service-description",
+      "en": "Tailor our machines to your specific needs and requirements.",
+      "ar": "خصص آلاتنا لتناسب احتياجاتك ومتطلباتك."
+    },
+    {
+      "selector": ".why-choose .service-card:nth-child(2) .service-title",
+      "en": "Smart Controls",
+      "ar": "تحكم ذكي"
+    },
+    {
+      "selector": ".why-choose .service-card:nth-child(2) .service-description",
+      "en": "Monitor and control your recycling operations from anywhere.",
+      "ar": "راقب عمليات إعادة التدوير وتحكّم بها من أي مكان."
+    },
+    {
+      "selector": ".why-choose .service-card:nth-child(3) .service-title",
+      "en": "Data Analytics",
+      "ar": "تحليلات البيانات"
+    },
+    {
+      "selector": ".why-choose .service-card:nth-child(3) .service-description",
+      "en": "Make informed decisions with real-time performance data.",
+      "ar": "اتخذ قرارات أفضل بفضل بيانات أداء لحظية."
+    },
+    {
+      "selector": ".why-choose .service-card:nth-child(4) .service-title",
+      "en": "Expert Support",
+      "ar": "دعم الخبراء"
+    },
+    {
+      "selector": ".why-choose .service-card:nth-child(4) .service-description",
+      "en": "24/7 technical support and maintenance services.",
+      "ar": "دعم فني وخدمات صيانة على مدار الساعة."
+    },
+    {
+      "selector": ".banner .banner-title",
+      "en": "Ready to Transform Your Recycling Process?",
+      "ar": "هل أنت مستعد لتحويل عملية إعادة التدوير لديك؟"
+    },
+    {
+      "selector": ".banner .banner-text",
+      "en": "Contact us today to discuss your specific requirements and find the perfect solution.",
+      "ar": "تواصل معنا اليوم لمناقشة متطلباتك واختيار الحل الأنسب."
+    },
+    {
+      "selector": ".banner .btn-primary",
+      "en": "Contact Us",
+      "ar": "تواصل معنا"
+    },
+    {
+      "selector": ".service-process .section-title",
+      "en": "How Our Process Works",
+      "ar": "كيف تعمل منهجيتنا"
+    },
+    {
+      "selector": ".service-process .section-subtitle",
+      "en": "A clear roadmap that keeps every recycling project on track",
+      "ar": "خريطة طريق واضحة تبقي كل مشروع لإعادة التدوير على المسار الصحيح"
+    },
+    {
+      "selector": ".process-step:nth-child(1) .step-title",
+      "en": "Discovery",
+      "ar": "الاستكشاف"
+    },
+    {
+      "selector": ".process-step:nth-child(1) .step-description",
+      "en": "We meet with your team to understand production goals and current waste streams.",
+      "ar": "نلتقي بفريقك لفهم أهداف الإنتاج وتدفقات النفايات الحالية."
+    },
+    {
+      "selector": ".process-step:nth-child(3) .step-title",
+      "en": "Assessment",
+      "ar": "التقييم"
+    },
+    {
+      "selector": ".process-step:nth-child(3) .step-description",
+      "en": "Detailed audit of materials, throughput, and space to define the right setup.",
+      "ar": "تقييم تفصيلي للمواد والطاقة الإنتاجية والمساحة لتحديد الإعداد الأنسب."
+    },
+    {
+      "selector": ".process-step:nth-child(5) .step-title",
+      "en": "Solution Design",
+      "ar": "تصميم الحل"
+    },
+    {
+      "selector": ".process-step:nth-child(5) .step-description",
+      "en": "We tailor machine configurations, smart controls, and data flows to your needs.",
+      "ar": "نخصص إعدادات الآلات والتحكم الذكي وتدفق البيانات بما يناسب احتياجاتك."
+    },
+    {
+      "selector": ".process-step:nth-child(7) .step-title",
+      "en": "Implementation",
+      "ar": "التنفيذ"
+    },
+    {
+      "selector": ".process-step:nth-child(7) .step-description",
+      "en": "Delivery, installation, onboarding, and live testing with your operations team.",
+      "ar": "التسليم والتركيب والتشغيل التجريبي مع فريق عملياتك."
+    },
+    {
+      "selector": ".process-step:nth-child(9) .step-title",
+      "en": "Optimization",
+      "ar": "التحسين"
+    },
+    {
+      "selector": ".process-step:nth-child(9) .step-description",
+      "en": "Ongoing monitoring, analytics, and support to maximize ROI and impact.",
+      "ar": "مراقبة مستمرة وتحليلات ودعم لتعظيم العائد والأثر."
+    },
+    {
+      "selector": "#contact .section-title",
+      "en": "Contact Us",
+      "ar": "تواصل معنا"
+    },
+    {
+      "selector": "#contact .section-subtitle",
+      "en": "Contact us today to discuss your specific requirements and find the perfect solution.",
+      "ar": "تواصل معنا اليوم لمناقشة متطلباتك واختيار الحل الأنسب."
+    },
+    {
+      "selector": "#contact .contact-card:nth-child(1) h4",
+      "en": "Location",
+      "ar": "الموقع"
+    },
+    {
+      "selector": "#contact .contact-card:nth-child(1) p",
+      "en": "Beni-Suef, Egypt",
+      "ar": "بني سويف، مصر"
+    },
+    {
+      "selector": "#contact .contact-card:nth-child(2) h4",
+      "en": "Phone",
+      "ar": "الهاتف"
+    },
+    {
+      "selector": "#contact .contact-card:nth-child(2) p",
+      "en": "+20 11 52338718",
+      "ar": "+20 11 52338718"
+    },
+    {
+      "selector": "#contact .contact-card:nth-child(3) h4",
+      "en": "Email",
+      "ar": "البريد الإلكتروني"
+    },
+    {
+      "selector": "#contact .contact-card:nth-child(3) p",
+      "en": "info@grenco.org",
+      "ar": "info@grenco.org"
+    },
+    {
+      "selector": "#contact form button",
+      "en": "Send Message",
+      "ar": "أرسل الرسالة"
+    }
+  ],
+  "attributes": [],
+  "html": []
+}

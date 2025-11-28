@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Grenco Smart Recycling Solutions</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body data-page="contact">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-content">
+          <div class="logo">
+            <span class="logo-icon">♻</span>
+            <span class="logo-text">Grenco</span>
+          </div>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="products.html" class="nav-link">Products</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="news.html" class="nav-link">News</a>
+            <a href="contact.html" class="nav-link active">Contact</a>
+          </div>
+          <div class="nav-actions">
+            <button class="lang-btn">العربية</button>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-background">
+        <img
+          src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1920&q=80"
+          alt="Contact"
+          class="hero-bg-image"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Get In Touch</h1>
+          <p class="hero-subtitle">
+            We'd love to hear from you. Let's talk about your recycling needs
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Contact Information</h2>
+          <p class="section-subtitle">Multiple ways to reach our team</p>
+        </div>
+        <div class="contact-info-grid">
+          <div class="contact-info-card">
+            <div class="contact-info-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3 class="contact-info-title">Headquarters</h3>
+            <p class="contact-info-text">Beni-Suef, Egypt</p>
+            <p class="contact-info-subtext">
+              Main office and manufacturing facility
+            </p>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+            <h3 class="contact-info-title">Phone</h3>
+            <p class="contact-info-text">+20 11 52338718</p>
+            <p class="contact-info-subtext">
+              Available Monday - Friday, 9AM - 6PM
+            </p>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+            <h3 class="contact-info-title">Email</h3>
+            <p class="contact-info-text">info@grenco.org</p>
+            <p class="contact-info-subtext">We respond within 24 hours</p>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-info-icon"><i class="fas fa-comments"></i></div>
+            <h3 class="contact-info-title">Live Chat</h3>
+            <p class="contact-info-text">Available on our website</p>
+            <p class="contact-info-subtext">Real-time support from our team</p>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-info-icon"><i class="fas fa-clock"></i></div>
+            <h3 class="contact-info-title">Business Hours</h3>
+            <p class="contact-info-text">Mon - Fri: 9:00 AM - 6:00 PM</p>
+            <p class="contact-info-subtext">Saturday: 10:00 AM - 2:00 PM</p>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-info-icon"><i class="fas fa-globe"></i></div>
+            <h3 class="contact-info-title">Global Support</h3>
+            <p class="contact-info-text">24/7 Technical Support</p>
+            <p class="contact-info-subtext">
+              For urgent issues and emergencies
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+      <div class="container">
+        <div class="contact-form-wrapper">
+          <div class="contact-form-header">
+            <h2 class="section-title">Send Us a Message</h2>
+            <p class="section-subtitle">
+              Fill out the form below and we'll get back to you as soon as
+              possible
+            </p>
+          </div>
+
+          <form class="contact-form-detailed">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" class="form-label">Full Name *</label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Your full name"
+                  class="form-input"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address *</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="your@email.com"
+                  class="form-input"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  placeholder="+20 XXX XXXX XXX"
+                  class="form-input"
+                />
+              </div>
+              <div class="form-group">
+                <label for="company" class="form-label">Company Name</label>
+                <input
+                  type="text"
+                  id="company"
+                  placeholder="Your company name"
+                  class="form-input"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject *</label>
+              <input
+                type="text"
+                id="subject"
+                placeholder="What is this about?"
+                class="form-input"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="inquiry-type" class="form-label"
+                >Inquiry Type *</label
+              >
+              <select id="inquiry-type" class="form-input" required>
+                <option value="">Select an option</option>
+                <option value="sales">Sales Inquiry</option>
+                <option value="support">Technical Support</option>
+                <option value="partnership">Partnership Opportunity</option>
+                <option value="media">Media Inquiry</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Message *</label>
+              <textarea
+                id="message"
+                placeholder="Tell us more about your inquiry..."
+                class="form-textarea"
+                rows="6"
+                required
+              ></textarea>
+            </div>
+
+            <div class="form-group checkbox">
+              <input type="checkbox" id="privacy" required />
+              <label for="privacy" class="checkbox-label">
+                I agree to the privacy policy and terms of service
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-large">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section class="departments-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Contact Our Departments</h2>
+          <p class="section-subtitle">
+            Reach out to the right team for your needs
+          </p>
+        </div>
+        <div class="departments-grid">
+          <div class="department-card">
+            <div class="department-icon"><i class="fas fa-briefcase"></i></div>
+            <h3 class="department-title">Sales</h3>
+            <p class="department-description">
+              Interested in our products or services?
+            </p>
+            <p class="department-contact">sales@grenco.org</p>
+            <a href="mailto:sales@grenco.org" class="btn btn-outline"
+              >Email Sales</a
+            >
+          </div>
+
+          <div class="department-card">
+            <div class="department-icon"><i class="fas fa-tools"></i></div>
+            <h3 class="department-title">Technical Support</h3>
+            <p class="department-description">Need help with your machine?</p>
+            <p class="department-contact">support@grenco.org</p>
+            <a href="mailto:support@grenco.org" class="btn btn-outline"
+              >Email Support</a
+            >
+          </div>
+
+          <div class="department-card">
+            <div class="department-icon"><i class="fas fa-handshake"></i></div>
+            <h3 class="department-title">Partnerships</h3>
+            <p class="department-description">Interested in collaborating?</p>
+            <p class="department-contact">partnerships@grenco.org</p>
+            <a href="mailto:partnerships@grenco.org" class="btn btn-outline"
+              >Email Partnerships</a
+            >
+          </div>
+
+          <div class="department-card">
+            <div class="department-icon"><i class="fas fa-newspaper"></i></div>
+            <h3 class="department-title">Media & Press</h3>
+            <p class="department-description">
+              Press inquiries and media requests
+            </p>
+            <p class="department-contact">media@grenco.org</p>
+            <a href="mailto:media@grenco.org" class="btn btn-outline"
+              >Email Media</a
+            >
+          </div>
+
+          <div class="department-card">
+            <div class="department-icon"><i class="fas fa-lightbulb"></i></div>
+            <h3 class="department-title">Innovation</h3>
+            <p class="department-description">Have an idea or suggestion?</p>
+            <p class="department-contact">innovation@grenco.org</p>
+            <a href="mailto:innovation@grenco.org" class="btn btn-outline"
+              >Email Innovation</a
+            >
+          </div>
+
+          <div class="department-card">
+            <div class="department-icon"><i class="fas fa-users"></i></div>
+            <h3 class="department-title">Careers</h3>
+            <p class="department-description">Join our growing team</p>
+            <p class="department-contact">careers@grenco.org</p>
+            <a href="mailto:careers@grenco.org" class="btn btn-outline"
+              >Email Careers</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">Quick answers to common questions</p>
+        </div>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What is your response time?</h3>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>
+                We typically respond to all inquiries within 24 business hours.
+                For urgent technical support, we offer 24/7 assistance.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Do you offer free consultations?</h3>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Yes! We offer free initial consultations to assess your
+                recycling needs and recommend the best solution for your
+                business.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What are your business hours?</h3>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Our main office is open Monday to Friday, 9:00 AM to 6:00 PM,
+                and Saturday 10:00 AM to 2:00 PM. We also offer 24/7 technical
+                support.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Can I schedule a site visit?</h3>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Absolutely! We can arrange a site visit to demonstrate our
+                machines and discuss your specific needs. Please contact our
+                sales team.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Do you provide training?</h3>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Yes, comprehensive training is included with every machine
+                installation. We also offer ongoing training and certification
+                programs.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What payment methods do you accept?</h3>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>
+                We accept bank transfers, credit cards, and can arrange
+                financing options. Contact our sales team for payment plan
+                details.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Visit Us</h2>
+          <p class="section-subtitle">
+            Find us at our headquarters in Beni-Suef, Egypt
+          </p>
+        </div>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.7890123456!2d31.2!3d29.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDA2JzAwLjAiTiAzMcKwMTInMDAuMCJF!5e0!3m2!1sen!2seg!4v1234567890"
+            width="100%"
+            height="500"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner Section -->
+    <section class="banner">
+      <div class="banner-background">
+        <img
+          src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1920&q=80"
+          alt="Get Started"
+          class="banner-bg-image"
+          loading="lazy"
+          decoding="async"
+        />
+        <div class="banner-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="banner-content">
+          <h2 class="banner-title">Ready to Transform Your Recycling?</h2>
+          <p class="banner-text">
+            Contact our team today to schedule a free consultation and discover
+            how Grenco can help your business.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <div class="footer-logo">
+              <span class="logo-icon">♻</span>
+              <span class="logo-text">Grenco</span>
+            </div>
+            <p class="footer-description">
+              Grenco provides smart plastic recycling solutions for businesses
+              seeking to reduce costs and environmental impact.
+            </p>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-title">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-title">Information</h4>
+            <ul class="footer-links">
+              <li><a href="#about">FAQ</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-title">Contact Info</h4>
+            <ul class="footer-contact">
+              <li>Beni-Suef, Egypt</li>
+              <li>+20 11 52338718</li>
+              <li>info@grenco.org</li>
+            </ul>
+            <div class="social-links">
+              <a href="#" class="social-icon" aria-label="Twitter">𝕏</a>
+              <a href="#" class="social-icon" aria-label="Facebook">f</a>
+              <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+              <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Grenco. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+  </body>
+</html>

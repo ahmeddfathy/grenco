@@ -1,0 +1,266 @@
+{
+  "text": [
+    {
+      "selector": ".hero-title",
+      "en": "About Grenco",
+      "ar": "عن جرينكو"
+    },
+    {
+      "selector": ".hero-subtitle",
+      "en": "Leading the sustainable future through innovative recycling technology",
+      "ar": "نقود مستقبل الاستدامة عبر تقنيات إعادة تدوير مبتكرة"
+    },
+    {
+      "selector": ".our-story .section-title",
+      "en": "Our Story",
+      "ar": "قصتنا"
+    },
+    {
+      "selector": ".story-text p:nth-child(2)",
+      "en": "Grenco was founded with a simple yet powerful vision: to revolutionize plastic recycling through smart technology. What started as a small initiative to address the growing plastic waste problem has evolved into a leading provider of innovative recycling solutions for businesses worldwide.",
+      "ar": "تأسست جرينكو برؤية بسيطة لكنها قوية: إحداث ثورة في إعادة تدوير البلاستيك من خلال التكنولوجيا الذكية. ما بدأ كمبادرة صغيرة لمعالجة مشكلة النفايات البلاستيكية المتزايدة أصبح اليوم مزوداً رائداً لحلول إعادة التدوير المبتكرة للشركات حول العالم."
+    },
+    {
+      "selector": ".story-text p:nth-child(3)",
+      "en": "Our journey began when our founders recognized that traditional recycling methods were inefficient and costly. They set out to create machines that not only recycle plastic more effectively but also provide real-time data and insights to help businesses optimize their operations.",
+      "ar": "بدأت رحلتنا عندما أدرك مؤسسونا أن طرق إعادة التدوير التقليدية غير فعالة ومكلفة. فعملوا على ابتكار آلات تعيد تدوير البلاستيك بكفاءة أعلى وتوفر بيانات فورية ورؤى تساعد الشركات على تحسين عملياتها."
+    },
+    {
+      "selector": ".story-text p:nth-child(4)",
+      "en": "Today, Grenco machines are deployed in over 75 facilities across 10 countries, helping businesses reduce waste, cut costs, and contribute to a more sustainable planet.",
+      "ar": "اليوم تعمل آلات جرينكو في أكثر من 75 منشأة عبر 10 دول، مما يساعد الشركات على تقليل النفايات وخفض التكاليف والمساهمة في كوكب أكثر استدامة."
+    },
+    {
+      "selector": ".mvv-section .section-title",
+      "en": "Our Mission, Vision & Values",
+      "ar": "رسالتنا ورؤيتنا وقيمنا"
+    },
+    {
+      "selector": ".mvv-card:nth-child(1) .mvv-title",
+      "en": "Mission",
+      "ar": "الرسالة"
+    },
+    {
+      "selector": ".mvv-card:nth-child(1) .mvv-text",
+      "en": "To empower businesses with sustainable recycling solutions that reduce costs, minimize environmental impact, and drive profitability through smart technology.",
+      "ar": "تمكين الشركات بحلول إعادة تدوير مستدامة تقلل التكاليف وتحد من التأثير البيئي وتعزز الربحية عبر التكنولوجيا الذكية."
+    },
+    {
+      "selector": ".mvv-card:nth-child(2) .mvv-title",
+      "en": "Vision",
+      "ar": "الرؤية"
+    },
+    {
+      "selector": ".mvv-card:nth-child(2) .mvv-text",
+      "en": "To lead the global transition to a circular economy by making advanced recycling technology accessible to businesses of all sizes.",
+      "ar": "قيادة التحول العالمي نحو اقتصاد دائري من خلال إتاحة تقنيات إعادة التدوير المتقدمة للشركات من جميع الأحجام."
+    },
+    {
+      "selector": ".mvv-card:nth-child(3) .mvv-title",
+      "en": "Core Values",
+      "ar": "القيم الأساسية"
+    },
+    {
+      "selector": ".mvv-card:nth-child(3) .mvv-list li:nth-child(1)",
+      "en": "Innovation & Excellence",
+      "ar": "الابتكار والتميز"
+    },
+    {
+      "selector": ".mvv-card:nth-child(3) .mvv-list li:nth-child(2)",
+      "en": "Sustainability & Responsibility",
+      "ar": "الاستدامة والمسؤولية"
+    },
+    {
+      "selector": ".mvv-card:nth-child(3) .mvv-list li:nth-child(3)",
+      "en": "Customer Success",
+      "ar": "نجاح العملاء"
+    },
+    {
+      "selector": ".mvv-card:nth-child(3) .mvv-list li:nth-child(4)",
+      "en": "Integrity & Transparency",
+      "ar": "النزاهة والشفافية"
+    },
+    {
+      "selector": ".stats .stat-item:nth-child(1) .stat-label",
+      "en": "Founded",
+      "ar": "سنة التأسيس"
+    },
+    {
+      "selector": ".stats .stat-item:nth-child(2) .stat-label",
+      "en": "Employees",
+      "ar": "عدد الموظفين"
+    },
+    {
+      "selector": ".stats .stat-item:nth-child(3) .stat-label",
+      "en": "Machines",
+      "ar": "عدد الآلات"
+    },
+    {
+      "selector": ".stats .stat-item:nth-child(4) .stat-label",
+      "en": "Countries",
+      "ar": "دول"
+    },
+    {
+      "selector": ".team .section-title",
+      "en": "Meet Our Team",
+      "ar": "تعرف على فريقنا"
+    },
+    {
+      "selector": ".team .section-subtitle",
+      "en": "Passionate professionals dedicated to sustainable innovation",
+      "ar": "خبراء شغوفون ملتزمون بالابتكار المستدام"
+    },
+    {
+      "selector": ".team-card:nth-child(1) .team-role",
+      "en": "CEO & Founder",
+      "ar": "الرئيس التنفيذي والمؤسس"
+    },
+    {
+      "selector": ".team-card:nth-child(2) .team-role",
+      "en": "DevOps Developer",
+      "ar": "مطور ديف أوبس"
+    },
+    {
+      "selector": ".team-card:nth-child(3) .team-role",
+      "en": "Data Analyst",
+      "ar": "محللة بيانات"
+    },
+    {
+      "selector": ".team-card:nth-child(4) .team-role",
+      "en": "HR Manager",
+      "ar": "مديرة الموارد البشرية"
+    },
+    {
+      "selector": ".why-choose .section-title",
+      "en": "Why Choose Grenco",
+      "ar": "لماذا تختار جرينكو"
+    },
+    {
+      "selector": ".why-choose .section-subtitle",
+      "en": "What sets us apart in the recycling industry",
+      "ar": "ما يميزنا في قطاع إعادة التدوير"
+    },
+    {
+      "selector": ".why-card:nth-child(1) .why-title",
+      "en": "Advanced Technology",
+      "ar": "تكنولوجيا متقدمة"
+    },
+    {
+      "selector": ".why-card:nth-child(1) .why-text",
+      "en": "Cutting-edge AI and IoT integration for intelligent, efficient recycling operations.",
+      "ar": "تكامل متطور بين الذكاء الاصطناعي وإنترنت الأشياء لعمليات إعادة تدوير ذكية وفعالة."
+    },
+    {
+      "selector": ".why-card:nth-child(2) .why-title",
+      "en": "Global Reach",
+      "ar": "انتشار عالمي"
+    },
+    {
+      "selector": ".why-card:nth-child(2) .why-text",
+      "en": "Serving customers across 10 countries with local support and expertise.",
+      "ar": "نخدم عملاء في 10 دول مع دعم وخبرة محلية."
+    },
+    {
+      "selector": ".why-card:nth-child(3) .why-title",
+      "en": "Cost Effective",
+      "ar": "فعّال من حيث التكلفة"
+    },
+    {
+      "selector": ".why-card:nth-child(3) .why-text",
+      "en": "Proven ROI within 8-12 months through waste reduction and material recovery.",
+      "ar": "عوائد استثمار مثبتة خلال 8-12 شهراً بفضل تقليل النفايات واستعادة المواد."
+    },
+    {
+      "selector": ".why-card:nth-child(4) .why-title",
+      "en": "Customer Support",
+      "ar": "دعم العملاء"
+    },
+    {
+      "selector": ".why-card:nth-child(4) .why-text",
+      "en": "Dedicated support team available 24/7 for technical assistance and optimization.",
+      "ar": "فريق دعم مخصص متاح على مدار الساعة للمساعدة التقنية والتحسين."
+    },
+    {
+      "selector": ".why-card:nth-child(5) .why-title",
+      "en": "Data Analytics",
+      "ar": "تحليلات البيانات"
+    },
+    {
+      "selector": ".why-card:nth-child(5) .why-text",
+      "en": "Real-time insights and reporting to track performance and maximize efficiency.",
+      "ar": "رؤى وتقارير فورية لمتابعة الأداء وتعظيم الكفاءة."
+    },
+    {
+      "selector": ".why-card:nth-child(6) .why-title",
+      "en": "Sustainability",
+      "ar": "الاستدامة"
+    },
+    {
+      "selector": ".why-card:nth-child(6) .why-text",
+      "en": "Committed to environmental responsibility and circular economy principles.",
+      "ar": "ملتزمون بالمسؤولية البيئية ومبادئ الاقتصاد الدائري."
+    },
+    {
+      "selector": ".banner .banner-title",
+      "en": "Join Us in Building a Sustainable Future",
+      "ar": "انضم إلينا لبناء مستقبل مستدام"
+    },
+    {
+      "selector": ".banner .banner-text",
+      "en": "Partner with Grenco to transform your recycling operations and make a positive impact on the environment.",
+      "ar": "تعاون مع جرينكو لتحويل عمليات إعادة التدوير لديك وإحداث أثر إيجابي على البيئة."
+    },
+    {
+      "selector": ".banner .btn-primary",
+      "en": "Get Started Today",
+      "ar": "ابدأ اليوم"
+    },
+    {
+      "selector": "#contact .section-title",
+      "en": "Contact Us",
+      "ar": "تواصل معنا"
+    },
+    {
+      "selector": "#contact .section-subtitle",
+      "en": "Have questions? We'd love to hear from you",
+      "ar": "هل لديك أسئلة؟ يسعدنا سماعك"
+    },
+    {
+      "selector": "#contact .contact-card:nth-child(1) h4",
+      "en": "Location",
+      "ar": "الموقع"
+    },
+    {
+      "selector": "#contact .contact-card:nth-child(1) p",
+      "en": "Beni-Suef, Egypt",
+      "ar": "بني سويف، مصر"
+    },
+    {
+      "selector": "#contact .contact-card:nth-child(2) h4",
+      "en": "Phone",
+      "ar": "الهاتف"
+    },
+    {
+      "selector": "#contact .contact-card:nth-child(2) p",
+      "en": "+20 11 52338718",
+      "ar": "+20 11 52338718"
+    },
+    {
+      "selector": "#contact .contact-card:nth-child(3) h4",
+      "en": "Email",
+      "ar": "البريد الإلكتروني"
+    },
+    {
+      "selector": "#contact .contact-card:nth-child(3) p",
+      "en": "info@grenco.org",
+      "ar": "info@grenco.org"
+    },
+    {
+      "selector": "#contact form button",
+      "en": "Send Message",
+      "ar": "أرسل الرسالة"
+    }
+  ],
+  "attributes": [],
+  "html": []
+}

@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoGrind S100 - Grenco Smart Recycling Machines</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      /* Product Detail Specific Styles */
+      .product-cta-buttons {
+        display: none;
+      }
+
+      /* Product Actions Section */
+      .product-actions-section {
+        background: var(--white);
+        padding: 3rem 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      }
+
+      .actions-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .actions-grid .btn {
+        text-align: center;
+        padding: 1rem 2rem;
+      }
+
+      /* Product Details Section */
+      .product-details-section {
+        background: var(--white);
+        padding: 4rem 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        margin-top: 120px;
+      }
+
+      .product-details-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        align-items: center;
+      }
+
+      .product-details-image {
+        position: relative;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+        height: 400px;
+        margin-top: 2rem;
+      }
+
+      .product-details-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .product-details-content {
+        max-width: 100%;
+      }
+
+      .product-details-title {
+        font-size: 2.8rem;
+        font-weight: 800;
+        color: var(--text-dark);
+        margin-bottom: 1.5rem;
+        line-height: 1.2;
+      }
+
+      .product-details-description {
+        font-size: 1.2rem;
+        color: var(--gray);
+        line-height: 1.8;
+        text-align: justify;
+      }
+
+      /* Features Section */
+      .product-features-section {
+        background: var(--white);
+        padding: 5rem 0;
+      }
+
+      .product-features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2.5rem;
+      }
+
+      .product-feature-card {
+        background: var(--white);
+        padding: 2.5rem;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+      }
+
+      .product-feature-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 50px rgba(45, 134, 89, 0.2);
+      }
+
+      .product-feature-card h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: var(--text-dark);
+        margin-bottom: 1rem;
+      }
+
+      .product-feature-card p {
+        color: var(--gray);
+        line-height: 1.7;
+        font-size: 1rem;
+      }
+
+      /* Specs Section */
+      .product-specs-section {
+        background: var(--light-gray);
+        padding: 5rem 0;
+      }
+
+      .specs-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .specs-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 2rem;
+        margin-bottom: 3rem;
+      }
+
+      .spec-card {
+        background: var(--white);
+        padding: 2rem;
+        border-radius: 16px;
+        text-align: center;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+      }
+
+      .spec-label {
+        color: var(--gray);
+        font-size: 0.9rem;
+        margin-bottom: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      .spec-value {
+        color: var(--text-dark);
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+
+      .plastic-types-container {
+        background: var(--white);
+        padding: 2.5rem;
+        border-radius: 16px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+      }
+
+      .plastic-types-container h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: var(--text-dark);
+        margin-bottom: 1.5rem;
+      }
+
+      .plastic-badges {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+
+      .plastic-badge {
+        background: linear-gradient(
+          135deg,
+          var(--primary-green) 0%,
+          var(--light-green) 100%
+        );
+        color: var(--white);
+        padding: 0.75rem 1.5rem;
+        border-radius: 25px;
+        font-weight: 600;
+        font-size: 1rem;
+        box-shadow: 0 4px 15px rgba(45, 134, 89, 0.3);
+      }
+
+      /* Customization Section */
+      .customization-section {
+        background: var(--white);
+        padding: 5rem 0;
+      }
+
+      .customization-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .customization-content {
+        background: linear-gradient(
+          135deg,
+          rgba(45, 134, 89, 0.05) 0%,
+          rgba(74, 175, 122, 0.05) 100%
+        );
+        padding: 3.5rem;
+        border-radius: 20px;
+        border: 2px solid rgba(45, 134, 89, 0.1);
+      }
+
+      .customization-content h2 {
+        font-size: 2.2rem;
+        font-weight: 800;
+        color: var(--text-dark);
+        margin-bottom: 1.5rem;
+      }
+
+      .customization-content p {
+        font-size: 1.1rem;
+        color: var(--gray);
+        line-height: 1.8;
+        margin-bottom: 2rem;
+      }
+
+      .customization-list {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+      }
+
+      .customization-list li {
+        color: var(--text-dark);
+        font-size: 1.05rem;
+        padding-left: 2rem;
+        position: relative;
+        line-height: 1.6;
+      }
+
+      .customization-list li::before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: var(--primary-green);
+        font-weight: bold;
+        font-size: 1.3rem;
+      }
+
+      /* Related Products Section */
+      .related-products-section {
+        background: var(--light-gray);
+        padding: 5rem 0;
+      }
+
+      .related-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .related-products-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 2.5rem;
+      }
+
+      .related-product-card {
+        background: var(--white);
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+      }
+
+      .related-product-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+      }
+
+      .related-product-image {
+        height: 250px;
+        background: linear-gradient(
+          135deg,
+          var(--primary-green) 0%,
+          var(--light-green) 100%
+        );
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+
+      .related-product-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .related-product-content {
+        padding: 2rem;
+      }
+
+      .related-product-content h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--text-dark);
+        margin-bottom: 0.75rem;
+      }
+
+      .related-product-content p {
+        color: var(--gray);
+        line-height: 1.7;
+        margin-bottom: 1.5rem;
+        font-size: 0.95rem;
+      }
+
+      .related-product-link {
+        color: var(--primary-green);
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .related-product-link:hover {
+        gap: 1rem;
+      }
+
+      /* Responsive */
+      @media (max-width: 968px) {
+        .product-details-grid {
+          grid-template-columns: 1fr;
+          gap: 2rem;
+        }
+
+        .product-details-image {
+          height: 300px;
+        }
+
+        .product-details-title {
+          font-size: 2.2rem;
+        }
+
+        .actions-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .product-detail-hero {
+          min-height: 60vh;
+          padding-top: 60px;
+        }
+
+        .product-info-container h1 {
+          font-size: 1.8rem;
+        }
+
+        .product-info-container p {
+          font-size: 1rem;
+        }
+
+        .specs-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .customization-list {
+          grid-template-columns: 1fr;
+        }
+
+        .related-products-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+
+  <body data-page="product-detail">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-content">
+          <div class="logo">
+            <span class="logo-icon">♻</span>
+            <span class="logo-text">Grenco</span>
+          </div>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="products.html" class="nav-link active">Products</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="news.html" class="nav-link">News</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+          </div>
+          <div class="nav-actions">
+            <button class="lang-btn">العربية</button>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Product Details Section -->
+    <section class="product-details-section">
+      <div class="container">
+        <div class="product-details-grid">
+          <div class="product-details-content">
+            <h1 class="product-details-title">EcoGrind S100</h1>
+            <p class="product-details-description">
+              The EcoGrind S100 is our entry-level smart recycling machine,
+              perfect for small workshops and businesses just starting their
+              recycling journey. This compact unit offers excellent performance
+              while requiring minimal space and investment.
+            </p>
+          </div>
+          <div class="product-details-image">
+            <img
+              src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&q=80"
+              alt="EcoGrind S100"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Smart Features Section -->
+    <section class="product-features-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Smart Features</h2>
+          <p class="section-subtitle">
+            Advanced capabilities designed for efficiency and ease of use
+          </p>
+        </div>
+        <div class="product-features-grid">
+          <div class="product-feature-card">
+            <h3>Smart Energy Management</h3>
+            <p>
+              Advanced system to optimize energy consumption and reduce
+              operational costs
+            </p>
+          </div>
+          <div class="product-feature-card">
+            <h3>Remote Monitoring</h3>
+            <p>
+              Advanced mobile app for monitoring and controlling the machine
+              from anywhere
+            </p>
+          </div>
+          <div class="product-feature-card">
+            <h3>Customizable Grinding Settings</h3>
+            <p>
+              Full control over grinding parameters to suit your specific needs
+            </p>
+          </div>
+          <div class="product-feature-card">
+            <h3>Automatic Shutdown</h3>
+            <p>
+              Automatic stop when not in use to save energy and protect the
+              machine
+            </p>
+          </div>
+          <div class="product-feature-card">
+            <h3>Compact Design</h3>
+            <p>Small footprint that fits workshops and limited spaces</p>
+          </div>
+          <div class="product-feature-card">
+            <h3>Reliable Performance</h3>
+            <p>Powerful motor and sturdy design for continuous operation</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Specifications Section -->
+    <section class="product-specs-section">
+      <div class="specs-container">
+        <div class="section-header">
+          <h2 class="section-title">Technical Specifications</h2>
+          <p class="section-subtitle">
+            Complete technical details of the EcoGrind S100
+          </p>
+        </div>
+        <div class="specs-grid">
+          <div class="spec-card">
+            <div class="spec-label">Capacity</div>
+            <div class="spec-value">50 kg/hour</div>
+          </div>
+          <div class="spec-card">
+            <div class="spec-label">Power</div>
+            <div class="spec-value">3.5 kW</div>
+          </div>
+          <div class="spec-card">
+            <div class="spec-label">Dimensions</div>
+            <div class="spec-value">1.2m × 0.8m × 1.5m</div>
+          </div>
+          <div class="spec-card">
+            <div class="spec-label">Weight</div>
+            <div class="spec-value">180 kg</div>
+          </div>
+          <div class="spec-card">
+            <div class="spec-label">Noise Level</div>
+            <div class="spec-value">65 dB</div>
+          </div>
+        </div>
+
+        <div class="plastic-types-container">
+          <h3>Supported Plastic Types</h3>
+          <div class="plastic-badges">
+            <span class="plastic-badge">PET</span>
+            <span class="plastic-badge">HDPE</span>
+            <span class="plastic-badge">LDPE</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customization Section -->
+    <section class="customization-section">
+      <div class="customization-container">
+        <div class="section-header">
+          <h2 class="section-title">Customization Options</h2>
+          <p class="section-subtitle">
+            Tailor the machine to your specific requirements
+          </p>
+        </div>
+        <div class="customization-content">
+          <h2>We Can Customize Your Machine</h2>
+          <p>
+            Our machines can be customized to fit your specific requirements.
+            Contact us for details on customization options including:
+          </p>
+          <ul class="customization-list">
+            <li>Size and dimension adjustments</li>
+            <li>Specialized components</li>
+            <li>Integration with existing systems</li>
+            <li>Advanced feature additions</li>
+            <li>Custom control interfaces</li>
+            <li>Special material handling</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related Products Section -->
+    <section class="related-products-section">
+      <div class="related-container">
+        <div class="section-header">
+          <h2 class="section-title">Our Recycling Machines</h2>
+          <p class="section-subtitle">
+            Grenco provides smart plastic recycling solutions for businesses
+            seeking to reduce costs and environmental impact
+          </p>
+        </div>
+        <div class="related-products-grid">
+          <div class="related-product-card">
+            <div class="related-product-image">
+              <img
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+                alt="RecycleMaster R200"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="related-product-content">
+              <h3>RecycleMaster R200</h3>
+              <p>
+                Mid-range recycling machine with 120 kg/hour capacity and
+                advanced features for medium operations
+              </p>
+              <a
+                href="product-detail.html?product=recyclemaster-r200"
+                class="related-product-link"
+                >Learn More →</a
+              >
+            </div>
+          </div>
+          <div class="related-product-card">
+            <div class="related-product-image">
+              <img
+                src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=800&q=80"
+                alt="InduStrong I500"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="related-product-content">
+              <h3>InduStrong I500</h3>
+              <p>
+                Heavy-duty industrial system with 500 kg/hour capacity for
+                large-scale operations
+              </p>
+              <a
+                href="product-detail.html?product=industrong-i500"
+                class="related-product-link"
+                >Learn More →</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Contact Us</h2>
+          <p class="section-subtitle">
+            Ready to get started? Contact our sales team
+          </p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-icon">📍</div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>Beni-Suef, Egypt</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">📞</div>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <p>+20 11 52338718</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">✉️</div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p>info@grenco.org</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  class="form-input"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  class="form-input"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Subject"
+                class="form-input"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                placeholder="Your Message"
+                class="form-textarea"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <div class="footer-logo">
+              <span class="logo-icon">♻</span>
+              <span class="logo-text">Grenco</span>
+            </div>
+            <p class="footer-description">
+              Grenco provides smart plastic recycling solutions for businesses
+              seeking to reduce costs and environmental impact.
+            </p>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-title">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="#contact">Support</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-title">Information</h4>
+            <ul class="footer-links">
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-title">Contact Info</h4>
+            <ul class="footer-contact">
+              <li>Beni-Suef, Egypt</li>
+              <li>+20 11 52338718</li>
+              <li>info@grenco.org</li>
+            </ul>
+            <div class="social-links">
+              <a href="#" class="social-icon" aria-label="Twitter">𝕏</a>
+              <a href="#" class="social-icon" aria-label="Facebook">f</a>
+              <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+              <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Grenco. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

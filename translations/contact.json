@@ -1,0 +1,426 @@
+{
+  "text": [
+    {
+      "selector": ".hero-title",
+      "en": "Get In Touch",
+      "ar": "تواصل معنا"
+    },
+    {
+      "selector": ".hero-subtitle",
+      "en": "We'd love to hear from you. Let's talk about your recycling needs",
+      "ar": "يسعدنا الاستماع إليك. دعنا نناقش احتياجاتك في إعادة التدوير"
+    },
+    {
+      "selector": ".contact-info-section .section-title",
+      "en": "Contact Information",
+      "ar": "معلومات الاتصال"
+    },
+    {
+      "selector": ".contact-info-section .section-subtitle",
+      "en": "Multiple ways to reach our team",
+      "ar": "طرق متعددة للوصول إلى فريقنا"
+    },
+    {
+      "selector": ".contact-info-card:nth-child(1) .contact-info-title",
+      "en": "Headquarters",
+      "ar": "المقر الرئيسي"
+    },
+    {
+      "selector": ".contact-info-card:nth-child(1) .contact-info-subtext",
+      "en": "Main office and manufacturing facility",
+      "ar": "المكتب الرئيسي ومنشأة التصنيع"
+    },
+    {
+      "selector": ".contact-info-card:nth-child(2) .contact-info-title",
+      "en": "Phone",
+      "ar": "الهاتف"
+    },
+    {
+      "selector": ".contact-info-card:nth-child(2) .contact-info-subtext",
+      "en": "Available Monday - Friday, 9AM - 6PM",
+      "ar": "متاح من الإثنين إلى الجمعة، 9 صباحاً حتى 6 مساءً"
+    },
+    {
+      "selector": ".contact-info-card:nth-child(3) .contact-info-title",
+      "en": "Email",
+      "ar": "البريد الإلكتروني"
+    },
+    {
+      "selector": ".contact-info-card:nth-child(3) .contact-info-subtext",
+      "en": "We respond within 24 hours",
+      "ar": "نرد خلال 24 ساعة"
+    },
+    {
+      "selector": ".contact-info-card:nth-child(4) .contact-info-title",
+      "en": "Live Chat",
+      "ar": "الدردشة المباشرة"
+    },
+    {
+      "selector": ".contact-info-card:nth-child(4) .contact-info-text",
+      "en": "Available on our website",
+      "ar": "متاحة على موقعنا"
+    },
+    {
+      "selector": ".contact-info-card:nth-child(4) .contact-info-subtext",
+      "en": "Real-time support from our team",
+      "ar": "دعم فوري من فريقنا"
+    },
+    {
+      "selector": ".contact-info-card:nth-child(5) .contact-info-title",
+      "en": "Business Hours",
+      "ar": "ساعات العمل"
+    },
+    {
+      "selector": ".contact-info-card:nth-child(5) .contact-info-text",
+      "en": "Mon - Fri: 9:00 AM - 6:00 PM",
+      "ar": "الإثنين - الجمعة: 9:00 صباحاً - 6:00 مساءً"
+    },
+    {
+      "selector": ".contact-info-card:nth-child(5) .contact-info-subtext",
+      "en": "Saturday: 10:00 AM - 2:00 PM",
+      "ar": "السبت: 10:00 صباحاً - 2:00 مساءً"
+    },
+    {
+      "selector": ".contact-info-card:nth-child(6) .contact-info-title",
+      "en": "Global Support",
+      "ar": "الدعم العالمي"
+    },
+    {
+      "selector": ".contact-info-card:nth-child(6) .contact-info-text",
+      "en": "24/7 Technical Support",
+      "ar": "دعم فني على مدار الساعة"
+    },
+    {
+      "selector": ".contact-info-card:nth-child(6) .contact-info-subtext",
+      "en": "For urgent issues and emergencies",
+      "ar": "للطوارئ والمشكلات العاجلة"
+    },
+    {
+      "selector": ".contact-form-section .section-title",
+      "en": "Send Us a Message",
+      "ar": "أرسل لنا رسالة"
+    },
+    {
+      "selector": ".contact-form-section .section-subtitle",
+      "en": "Fill out the form below and we'll get back to you as soon as possible",
+      "ar": "املأ النموذج أدناه وسنعاود الاتصال بك في أقرب وقت ممكن"
+    },
+    {
+      "selector": ".contact-form-detailed label[for=\"name\"]",
+      "en": "Full Name *",
+      "ar": "الاسم الكامل *"
+    },
+    {
+      "selector": ".contact-form-detailed label[for=\"email\"]",
+      "en": "Email Address *",
+      "ar": "البريد الإلكتروني *"
+    },
+    {
+      "selector": ".contact-form-detailed label[for=\"phone\"]",
+      "en": "Phone Number",
+      "ar": "رقم الهاتف"
+    },
+    {
+      "selector": ".contact-form-detailed label[for=\"company\"]",
+      "en": "Company Name",
+      "ar": "اسم الشركة"
+    },
+    {
+      "selector": ".contact-form-detailed label[for=\"subject\"]",
+      "en": "Subject *",
+      "ar": "الموضوع *"
+    },
+    {
+      "selector": ".contact-form-detailed label[for=\"inquiry-type\"]",
+      "en": "Inquiry Type *",
+      "ar": "نوع الاستفسار *"
+    },
+    {
+      "selector": ".contact-form-detailed label[for=\"message\"]",
+      "en": "Message *",
+      "ar": "الرسالة *"
+    },
+    {
+      "selector": ".contact-form-detailed .checkbox-label",
+      "en": "I agree to the privacy policy and terms of service",
+      "ar": "أوافق على سياسة الخصوصية وشروط الخدمة"
+    },
+    {
+      "selector": ".contact-form-detailed button[type=\"submit\"]",
+      "en": "Send Message",
+      "ar": "أرسل الرسالة"
+    },
+    {
+      "selector": ".departments-section .section-title",
+      "en": "Contact Our Departments",
+      "ar": "تواصل مع أقسامنا"
+    },
+    {
+      "selector": ".departments-section .section-subtitle",
+      "en": "Reach out to the right team for your needs",
+      "ar": "تواصل مع الفريق المناسب لاحتياجاتك"
+    },
+    {
+      "selector": ".department-card:nth-child(1) .department-title",
+      "en": "Sales",
+      "ar": "المبيعات"
+    },
+    {
+      "selector": ".department-card:nth-child(1) .department-description",
+      "en": "Interested in our products or services?",
+      "ar": "مهتم بمنتجاتنا أو خدماتنا؟"
+    },
+    {
+      "selector": ".department-card:nth-child(1) .btn",
+      "en": "Email Sales",
+      "ar": "راسل قسم المبيعات"
+    },
+    {
+      "selector": ".department-card:nth-child(2) .department-title",
+      "en": "Technical Support",
+      "ar": "الدعم الفني"
+    },
+    {
+      "selector": ".department-card:nth-child(2) .department-description",
+      "en": "Need help with your machine?",
+      "ar": "هل تحتاج إلى مساعدة في جهازك؟"
+    },
+    {
+      "selector": ".department-card:nth-child(2) .btn",
+      "en": "Email Support",
+      "ar": "راسل الدعم الفني"
+    },
+    {
+      "selector": ".department-card:nth-child(3) .department-title",
+      "en": "Partnerships",
+      "ar": "الشراكات"
+    },
+    {
+      "selector": ".department-card:nth-child(3) .department-description",
+      "en": "Interested in collaborating?",
+      "ar": "هل ترغب في التعاون؟"
+    },
+    {
+      "selector": ".department-card:nth-child(3) .btn",
+      "en": "Email Partnerships",
+      "ar": "راسل قسم الشراكات"
+    },
+    {
+      "selector": ".department-card:nth-child(4) .department-title",
+      "en": "Media & Press",
+      "ar": "الإعلام والصحافة"
+    },
+    {
+      "selector": ".department-card:nth-child(4) .department-description",
+      "en": "Press inquiries and media requests",
+      "ar": "استفسارات الصحافة وطلبات الإعلام"
+    },
+    {
+      "selector": ".department-card:nth-child(4) .btn",
+      "en": "Email Media",
+      "ar": "راسل الإعلام"
+    },
+    {
+      "selector": ".department-card:nth-child(5) .department-title",
+      "en": "Innovation",
+      "ar": "الابتكار"
+    },
+    {
+      "selector": ".department-card:nth-child(5) .department-description",
+      "en": "Have an idea or suggestion?",
+      "ar": "هل لديك فكرة أو اقتراح؟"
+    },
+    {
+      "selector": ".department-card:nth-child(5) .btn",
+      "en": "Email Innovation",
+      "ar": "راسل قسم الابتكار"
+    },
+    {
+      "selector": ".department-card:nth-child(6) .department-title",
+      "en": "Careers",
+      "ar": "الوظائف"
+    },
+    {
+      "selector": ".department-card:nth-child(6) .department-description",
+      "en": "Join our growing team",
+      "ar": "انضم إلى فريقنا المتنامي"
+    },
+    {
+      "selector": ".department-card:nth-child(6) .btn",
+      "en": "Email Careers",
+      "ar": "راسل قسم التوظيف"
+    },
+    {
+      "selector": ".faq-section .section-title",
+      "en": "Frequently Asked Questions",
+      "ar": "الأسئلة الشائعة"
+    },
+    {
+      "selector": ".faq-section .section-subtitle",
+      "en": "Quick answers to common questions",
+      "ar": "إجابات سريعة لأكثر الأسئلة شيوعاً"
+    },
+    {
+      "selector": ".faq-item:nth-child(1) .faq-question h3",
+      "en": "What is your response time?",
+      "ar": "ما هو وقت الاستجابة لديكم؟"
+    },
+    {
+      "selector": ".faq-item:nth-child(1) .faq-answer p",
+      "en": "We typically respond to all inquiries within 24 business hours. For urgent technical support, we offer 24/7 assistance.",
+      "ar": "نستجيب عادةً لجميع الاستفسارات خلال 24 ساعة عمل. وللدعم الفني العاجل، نقدم المساعدة على مدار الساعة."
+    },
+    {
+      "selector": ".faq-item:nth-child(2) .faq-question h3",
+      "en": "Do you offer free consultations?",
+      "ar": "هل تقدمون استشارات مجانية؟"
+    },
+    {
+      "selector": ".faq-item:nth-child(2) .faq-answer p",
+      "en": "Yes! We offer free initial consultations to assess your recycling needs and recommend the best solution for your business.",
+      "ar": "نعم! نقدم استشارات أولية مجانية لتقييم احتياجات إعادة التدوير لديك وتوصية أفضل حل لشركتك."
+    },
+    {
+      "selector": ".faq-item:nth-child(3) .faq-question h3",
+      "en": "What are your business hours?",
+      "ar": "ما هي ساعات عملكم؟"
+    },
+    {
+      "selector": ".faq-item:nth-child(3) .faq-answer p",
+      "en": "Our main office is open Monday to Friday, 9:00 AM to 6:00 PM, and Saturday 10:00 AM to 2:00 PM. We also offer 24/7 technical support.",
+      "ar": "مكتبنا الرئيسي مفتوح من الاثنين إلى الجمعة، من 9:00 صباحاً إلى 6:00 مساءً، والسبت من 10:00 صباحاً إلى 2:00 مساءً. كما نقدم دعماً فنياً على مدار الساعة."
+    },
+    {
+      "selector": ".faq-item:nth-child(4) .faq-question h3",
+      "en": "Can I schedule a site visit?",
+      "ar": "هل يمكنني تحديد موعد لزيارة الموقع؟"
+    },
+    {
+      "selector": ".faq-item:nth-child(4) .faq-answer p",
+      "en": "Absolutely! We can arrange a site visit to demonstrate our machines and discuss your specific needs. Please contact our sales team.",
+      "ar": "بالتأكيد! يمكننا ترتيب زيارة ميدانية لاستعراض آلاتنا ومناقشة احتياجاتك الخاصة. يرجى التواصل مع فريق المبيعات."
+    },
+    {
+      "selector": ".faq-item:nth-child(5) .faq-question h3",
+      "en": "Do you provide training?",
+      "ar": "هل تقدمون تدريباً؟"
+    },
+    {
+      "selector": ".faq-item:nth-child(5) .faq-answer p",
+      "en": "Yes, comprehensive training is included with every machine installation. We also offer ongoing training and certification programs.",
+      "ar": "نعم، يشمل كل تركيب للآلات تدريباً شاملاً. كما نقدم برامج تدريب وشهادات مستمرة."
+    },
+    {
+      "selector": ".faq-item:nth-child(6) .faq-question h3",
+      "en": "What payment methods do you accept?",
+      "ar": "ما طرق الدفع التي تقبلونها؟"
+    },
+    {
+      "selector": ".faq-item:nth-child(6) .faq-answer p",
+      "en": "We accept bank transfers, credit cards, and can arrange financing options. Contact our sales team for payment plan details.",
+      "ar": "نقبل التحويلات البنكية وبطاقات الائتمان، ويمكننا ترتيب خيارات تمويل. تواصل مع فريق المبيعات لمعرفة تفاصيل خطط الدفع."
+    },
+    {
+      "selector": ".map-section .section-title",
+      "en": "Visit Us",
+      "ar": "قم بزيارتنا"
+    },
+    {
+      "selector": ".map-section .section-subtitle",
+      "en": "Find us at our headquarters in Beni-Suef, Egypt",
+      "ar": "تجدنا في مقرنا الرئيسي ببني سويف، مصر"
+    },
+    {
+      "selector": ".banner .banner-title",
+      "en": "Ready to Transform Your Recycling?",
+      "ar": "هل أنت مستعد لتحويل عمليات إعادة التدوير لديك؟"
+    },
+    {
+      "selector": ".banner .banner-text",
+      "en": "Contact our team today to schedule a free consultation and discover how Grenco can help your business.",
+      "ar": "تواصل مع فريقنا اليوم لحجز استشارة مجانية واكتشف كيف يمكن لجرينكو مساعدة عملك."
+    }
+  ],
+  "attributes": [
+    {
+      "selector": "#name",
+      "attribute": "placeholder",
+      "en": "Your full name",
+      "ar": "اكتب اسمك الكامل"
+    },
+    {
+      "selector": "#email",
+      "attribute": "placeholder",
+      "en": "your@email.com",
+      "ar": "بريدك الإلكتروني"
+    },
+    {
+      "selector": "#phone",
+      "attribute": "placeholder",
+      "en": "+20 XXX XXXX XXX",
+      "ar": "+20 XXX XXXX XXX"
+    },
+    {
+      "selector": "#company",
+      "attribute": "placeholder",
+      "en": "Your company name",
+      "ar": "اسم شركتك"
+    },
+    {
+      "selector": "#subject",
+      "attribute": "placeholder",
+      "en": "What is this about?",
+      "ar": "ما موضوع الرسالة؟"
+    },
+    {
+      "selector": "#message",
+      "attribute": "placeholder",
+      "en": "Tell us more about your inquiry...",
+      "ar": "أخبرنا المزيد عن استفسارك..."
+    },
+    {
+      "selector": "#inquiry-type option[value=\"\"]",
+      "attribute": "textContent",
+      "en": "Select an option",
+      "ar": "اختر خياراً"
+    },
+    {
+      "selector": "#inquiry-type option[value=\"sales\"]",
+      "attribute": "textContent",
+      "en": "Sales Inquiry",
+      "ar": "استفسار مبيعات"
+    },
+    {
+      "selector": "#inquiry-type option[value=\"support\"]",
+      "attribute": "textContent",
+      "en": "Technical Support",
+      "ar": "دعم فني"
+    },
+    {
+      "selector": "#inquiry-type option[value=\"partnership\"]",
+      "attribute": "textContent",
+      "en": "Partnership Opportunity",
+      "ar": "فرصة شراكة"
+    },
+    {
+      "selector": "#inquiry-type option[value=\"media\"]",
+      "attribute": "textContent",
+      "en": "Media Inquiry",
+      "ar": "استفسار إعلامي"
+    },
+    {
+      "selector": "#inquiry-type option[value=\"feedback\"]",
+      "attribute": "textContent",
+      "en": "Feedback",
+      "ar": "ملاحظات"
+    },
+    {
+      "selector": "#inquiry-type option[value=\"other\"]",
+      "attribute": "textContent",
+      "en": "Other",
+      "ar": "أخرى"
+    }
+  ],
+  "html": []
+}
+

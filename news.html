@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News & Media - Grenco Smart Recycling</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body data-page="news">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-content">
+          <div class="logo">
+            <span class="logo-icon">♻</span>
+            <span class="logo-text">Grenco</span>
+          </div>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="products.html" class="nav-link">Products</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="news.html" class="nav-link active">News</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+          </div>
+          <div class="nav-actions">
+            <button class="lang-btn">العربية</button>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-background">
+        <img
+          src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1920&q=80"
+          alt="News"
+          class="hero-bg-image"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">News & Media</h1>
+          <p class="hero-subtitle">
+            Latest updates, insights, and stories from Grenco
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Filter Section -->
+    <section class="news-filter-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Latest Stories</h2>
+          <p class="section-subtitle">
+            Stay updated with our latest news and announcements
+          </p>
+        </div>
+        <div class="news-filter-buttons">
+          <button class="news-filter-btn active" data-filter="all">
+            All News
+          </button>
+          <button class="news-filter-btn" data-filter="product">
+            Product Launch
+          </button>
+          <button class="news-filter-btn" data-filter="industry">
+            Industry News
+          </button>
+          <button class="news-filter-btn" data-filter="awards">Awards</button>
+          <button class="news-filter-btn" data-filter="partnership">
+            Partnership
+          </button>
+          <button class="news-filter-btn" data-filter="event">Events</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured News Section -->
+    <section class="featured-news">
+      <div class="container">
+        <div class="featured-news-card">
+          <div class="featured-image">
+            <img
+              src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&q=80"
+              alt="Featured News"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div class="featured-content">
+            <span class="featured-badge">Featured</span>
+            <h2 class="featured-title">
+              Grenco Launches Revolutionary AI-Powered Recycling System
+            </h2>
+            <p class="featured-date">January 20, 2025</p>
+            <p class="featured-excerpt">
+              We're thrilled to announce the launch of our most advanced
+              recycling system yet. The new AI-powered sorting technology
+              increases efficiency by 45% and can now process 12 different
+              plastic types with unprecedented accuracy.
+            </p>
+            <a href="#" class="btn btn-primary">Read Full Story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Grid Section -->
+    <section class="news-grid-section">
+      <div class="container">
+        <div class="news-grid-detailed">
+          <!-- News 1 -->
+          <article class="news-card-detailed" data-category="product">
+            <div class="news-image-detailed">
+              <img
+                src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=80"
+                alt="News"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="news-category-badge">Product Launch</span>
+            </div>
+            <div class="news-content-detailed">
+              <div class="news-meta">
+                <span class="news-date-detailed">Jan 15, 2025</span>
+                <span class="news-read-time">5 min read</span>
+              </div>
+              <h3 class="news-title-detailed">
+                Grenco Launches Next-Gen Recycling Machine
+              </h3>
+              <p class="news-excerpt-detailed">
+                Our new EcoGrind X200 offers 30% higher efficiency and supports
+                more plastic types than ever before.
+              </p>
+              <div class="news-footer-detailed">
+                <a href="#" class="news-link-detailed">Read More →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- News 2 -->
+          <article class="news-card-detailed" data-category="industry">
+            <div class="news-image-detailed">
+              <img
+                src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&q=80"
+                alt="News"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="news-category-badge">Industry News</span>
+            </div>
+            <div class="news-content-detailed">
+              <div class="news-meta">
+                <span class="news-date-detailed">Jan 8, 2025</span>
+                <span class="news-read-time">4 min read</span>
+              </div>
+              <h3 class="news-title-detailed">
+                Grenco Expands Operations to 10 Countries
+              </h3>
+              <p class="news-excerpt-detailed">
+                We're excited to announce our expansion into new markets,
+                bringing sustainable recycling solutions to businesses
+                worldwide.
+              </p>
+              <div class="news-footer-detailed">
+                <a href="#" class="news-link-detailed">Read More →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- News 3 -->
+          <article class="news-card-detailed" data-category="awards">
+            <div class="news-image-detailed">
+              <img
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80"
+                alt="News"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="news-category-badge">Awards</span>
+            </div>
+            <div class="news-content-detailed">
+              <div class="news-meta">
+                <span class="news-date-detailed">Dec 20, 2024</span>
+                <span class="news-read-time">3 min read</span>
+              </div>
+              <h3 class="news-title-detailed">
+                Grenco Wins Innovation Award for Sustainability
+              </h3>
+              <p class="news-excerpt-detailed">
+                Our smart recycling technology has been recognized for its
+                innovative approach to reducing plastic waste in manufacturing.
+              </p>
+              <div class="news-footer-detailed">
+                <a href="#" class="news-link-detailed">Read More →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- News 4 -->
+          <article class="news-card-detailed" data-category="partnership">
+            <div class="news-image-detailed">
+              <img
+                src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600&q=80"
+                alt="News"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="news-category-badge">Partnership</span>
+            </div>
+            <div class="news-content-detailed">
+              <div class="news-meta">
+                <span class="news-date-detailed">Dec 10, 2024</span>
+                <span class="news-read-time">4 min read</span>
+              </div>
+              <h3 class="news-title-detailed">
+                New Partnership with Global Manufacturing Leaders
+              </h3>
+              <p class="news-excerpt-detailed">
+                We've partnered with leading manufacturers to integrate our
+                recycling solutions into their production processes.
+              </p>
+              <div class="news-footer-detailed">
+                <a href="#" class="news-link-detailed">Read More →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- News 5 -->
+          <article class="news-card-detailed" data-category="industry">
+            <div class="news-image-detailed">
+              <img
+                src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80"
+                alt="News"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="news-category-badge">Industry News</span>
+            </div>
+            <div class="news-content-detailed">
+              <div class="news-meta">
+                <span class="news-date-detailed">Nov 28, 2024</span>
+                <span class="news-read-time">5 min read</span>
+              </div>
+              <h3 class="news-title-detailed">
+                AI-Powered Sorting Technology Update
+              </h3>
+              <p class="news-excerpt-detailed">
+                Our latest software update improves AI sorting accuracy by 40%,
+                making recycling more efficient than ever.
+              </p>
+              <div class="news-footer-detailed">
+                <a href="#" class="news-link-detailed">Read More →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- News 6 -->
+          <article class="news-card-detailed" data-category="event">
+            <div class="news-image-detailed">
+              <img
+                src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&q=80"
+                alt="News"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="news-category-badge">Events</span>
+            </div>
+            <div class="news-content-detailed">
+              <div class="news-meta">
+                <span class="news-date-detailed">Nov 15, 2024</span>
+                <span class="news-read-time">3 min read</span>
+              </div>
+              <h3 class="news-title-detailed">
+                Grenco to Exhibit at International Recycling Expo
+              </h3>
+              <p class="news-excerpt-detailed">
+                Join us at the upcoming expo where we'll showcase our latest
+                recycling innovations and technologies.
+              </p>
+              <div class="news-footer-detailed">
+                <a href="#" class="news-link-detailed">Read More →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- News 7 -->
+          <article class="news-card-detailed" data-category="product">
+            <div class="news-image-detailed">
+              <img
+                src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=80"
+                alt="News"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="news-category-badge">Product Launch</span>
+            </div>
+            <div class="news-content-detailed">
+              <div class="news-meta">
+                <span class="news-date-detailed">Nov 1, 2024</span>
+                <span class="news-read-time">4 min read</span>
+              </div>
+              <h3 class="news-title-detailed">
+                RecycleMaster Pro Now Available
+              </h3>
+              <p class="news-excerpt-detailed">
+                The professional-grade RecycleMaster Pro is now available for
+                pre-order with exclusive early-bird pricing.
+              </p>
+              <div class="news-footer-detailed">
+                <a href="#" class="news-link-detailed">Read More →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- News 8 -->
+          <article class="news-card-detailed" data-category="awards">
+            <div class="news-image-detailed">
+              <img
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80"
+                alt="News"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="news-category-badge">Awards</span>
+            </div>
+            <div class="news-content-detailed">
+              <div class="news-meta">
+                <span class="news-date-detailed">Oct 15, 2024</span>
+                <span class="news-read-time">3 min read</span>
+              </div>
+              <h3 class="news-title-detailed">
+                Grenco Named Best Green Technology Company
+              </h3>
+              <p class="news-excerpt-detailed">
+                We've been recognized as the best green technology company in
+                the Middle East for our innovative solutions.
+              </p>
+              <div class="news-footer-detailed">
+                <a href="#" class="news-link-detailed">Read More →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- News 9 -->
+          <article class="news-card-detailed" data-category="partnership">
+            <div class="news-image-detailed">
+              <img
+                src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600&q=80"
+                alt="News"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="news-category-badge">Partnership</span>
+            </div>
+            <div class="news-content-detailed">
+              <div class="news-meta">
+                <span class="news-date-detailed">Oct 1, 2024</span>
+                <span class="news-read-time">4 min read</span>
+              </div>
+              <h3 class="news-title-detailed">
+                Strategic Partnership with Environmental NGO
+              </h3>
+              <p class="news-excerpt-detailed">
+                Grenco partners with leading environmental organizations to
+                promote sustainable recycling practices.
+              </p>
+              <div class="news-footer-detailed">
+                <a href="#" class="news-link-detailed">Read More →</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pagination Section -->
+    <section class="pagination-section">
+      <div class="container">
+        <div class="pagination">
+          <a href="#" class="pagination-btn active">1</a>
+          <a href="#" class="pagination-btn">2</a>
+          <a href="#" class="pagination-btn">3</a>
+          <a href="#" class="pagination-btn next">Next →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2 class="newsletter-title">Subscribe to Our Newsletter</h2>
+          <p class="newsletter-subtitle">
+            Get the latest news and updates delivered to your inbox
+          </p>
+          <form class="newsletter-form">
+            <div class="form-group">
+              <input
+                type="email"
+                placeholder="Enter your email address"
+                class="form-input"
+                required
+              />
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner Section -->
+    <section class="banner">
+      <div class="banner-background">
+        <img
+          src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1920&q=80"
+          alt="Stay Updated"
+          class="banner-bg-image"
+          loading="lazy"
+          decoding="async"
+        />
+        <div class="banner-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="banner-content">
+          <h2 class="banner-title">Stay Updated with Grenco</h2>
+          <p class="banner-text">
+            Follow us on social media for real-time updates and
+            behind-the-scenes content
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Contact Us</h2>
+          <p class="section-subtitle">
+            Have a story to share? Get in touch with our media team
+          </p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-icon">📍</div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>Beni-Suef, Egypt</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">📞</div>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <p>+20 11 52338718</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">✉️</div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p>media@grenco.org</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  class="form-input"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  class="form-input"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Subject"
+                class="form-input"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                placeholder="Your Message"
+                class="form-textarea"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <div class="footer-logo">
+              <span class="logo-icon">♻</span>
+              <span class="logo-text">Grenco</span>
+            </div>
+            <p class="footer-description">
+              Grenco provides smart plastic recycling solutions for businesses
+              seeking to reduce costs and environmental impact.
+            </p>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-title">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-title">Information</h4>
+            <ul class="footer-links">
+              <li><a href="#about">FAQ</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-title">Contact Info</h4>
+            <ul class="footer-contact">
+              <li>Beni-Suef, Egypt</li>
+              <li>+20 11 52338718</li>
+              <li>info@grenco.org</li>
+            </ul>
+            <div class="social-links">
+              <a href="#" class="social-icon" aria-label="Twitter">𝕏</a>
+              <a href="#" class="social-icon" aria-label="Facebook">f</a>
+              <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+              <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Grenco. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="news.js"></script>
+  </body>
+</html>
